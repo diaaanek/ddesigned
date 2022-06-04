@@ -9,7 +9,8 @@
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  background-color: var(--n8);
+  background-color: rgba(252, 252, 253, 0.8);
+  backdrop-filter: saturate(180%) blur(20px);
   max-width: 900px;
   padding: 60px;
   border-radius: 8px;
@@ -60,8 +61,6 @@
 @media (max-width: 768px) {
   .content {
     padding: 32px;
-
-    background-color: rgba(255, 255, 255, 0.9);
   }
 
   .image_container {
