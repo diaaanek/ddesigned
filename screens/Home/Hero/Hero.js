@@ -28,7 +28,7 @@ const item = {
 const stats = [
   {
     title: "+84",
-    text: "Client on work worldwide",
+    text: "Clients worldwide",
   },
   {
     title: "120",
@@ -80,6 +80,10 @@ const Hero = () => {
 
         <div className={styles.image_container}>
           <img className={styles.image} src="/images/avatar.jpg" />
+
+          <div className={styles.social_wrapper}>
+            <p className={cn("caption")}>Twitter</p>
+          </div>
         </div>
       </div>
     </div>
