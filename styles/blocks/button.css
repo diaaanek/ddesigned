@@ -40,6 +40,8 @@
   background-color: transparent;
   font-weight: bold;
   box-shadow: none;
+  padding: 0;
+  border-radius: 0;
 }
 
 .button-small:hover {
