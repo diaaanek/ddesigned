@@ -81,8 +81,8 @@ const Hero = () => {
         <div className={styles.image_container}>
           <img className={styles.image} src="/images/avatar.jpg" />
 
-          <div className={styles.social_wrapper}>
-            <p className={cn("caption")}>Twitter</p>
+          <div className={styles.author}>
+            <p className={cn("caption", styles.name)}>Angel Uriostegui</p>
           </div>
         </div>
       </div>
