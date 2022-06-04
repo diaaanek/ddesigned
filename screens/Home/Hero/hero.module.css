@@ -62,6 +62,10 @@
     padding: 32px;
   }
 
+  .image_container {
+    width: 100%;
+  }
+
   .wrapper {
     display: grid;
     grid-template-columns: 1fr;
