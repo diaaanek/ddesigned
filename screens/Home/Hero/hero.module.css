@@ -66,6 +66,10 @@
 }
 
 @media (max-width: 768px) {
+  .section {
+    padding-top: 200px;
+  }
+
   .content {
     padding: 32px;
     background-color: rgba(252, 252, 253, 0.9);
