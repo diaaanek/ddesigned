@@ -6,7 +6,7 @@ const Header = () => {
     <header className={styles.section}>
       <div className={cn("container", styles.container)}>
         <p className={cn("body-bold")}>Vedio</p>
-        <button className={cn("button button-small")}>Let's talk</button>
+        <button className={cn("button button-small")}>{"Let's talk"}</button>
       </div>
     </header>
   );
