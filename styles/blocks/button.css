@@ -36,9 +36,10 @@
 }
 
 .button-small {
-  color: var(--n4);
+  color: var(--p1);
   background-color: transparent;
   font-weight: bold;
+  box-shadow: none;
 }
 
 .button-small:hover {
