@@ -8,7 +8,7 @@
   border: none;
   border-radius: 8px;
   cursor: pointer;
-  font-family: "Outfit", sans-serif;
+  font-family: "DM Sans", sans-serif;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -36,18 +36,10 @@
 }
 
 .button-small {
+  font-family: "DM Sans", sans-serif;
+  font-size: 14px;
   color: var(--p1);
-  background-color: transparent;
   font-weight: bold;
-  box-shadow: none;
-  padding: 0;
-  border-radius: 0;
-}
-
-.button-small:hover {
-  color: var(--n2);
-  opacity: 1;
-  background-color: transparent;
 }
 
 .active {

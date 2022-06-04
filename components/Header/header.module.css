@@ -10,6 +10,28 @@
   justify-content: space-between;
 }
 
+.links {
+  display: grid;
+  grid-template-columns: repeat(5, auto);
+  grid-gap: 32px;
+}
+
+.link {
+  color: var(--p1);
+}
+
+.active {
+  color: var(--n2);
+}
+
+.inactive {
+  color: var(--n4);
+}
+
+.inactive:hover {
+  color: var(--n2);
+}
+
 @media (max-width: 768px) {
   .section {
     position: fixed;
