@@ -55,7 +55,7 @@ const Services = () => {
       <div className={cn("container", styles.container)}>
         <div className={styles.upper_content}>
           <div className={styles.content}>
-            <Tag number="01" />
+            <Tag number="01" background="#ffbc99" />
             <TextOverlap title="Services" text="Services" />
           </div>
 
