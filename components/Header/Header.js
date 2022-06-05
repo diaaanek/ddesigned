@@ -29,7 +29,7 @@ const Header = () => {
   return (
     <header className={styles.section}>
       <div className={cn("container", styles.container)}>
-        <p className={cn("body-bold")}>Vedio</p>
+        <p className={cn("body-bold", styles.logo)}>Vedio</p>
         <OutsideClickHandler onOutsideClick={() => setMenu(false)}>
           <div className={menu ? styles.responsive_links : styles.links}>
             {links.map((item, index) => (

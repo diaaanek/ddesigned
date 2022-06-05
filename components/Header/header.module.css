@@ -53,6 +53,10 @@
 }
 
 @media (max-width: 768px) {
+  .logo {
+    color: var(--n8);
+  }
+
   .link {
     display: none;
   }
@@ -62,7 +66,6 @@
     top: 0;
     left: 0;
     right: 0;
-    background-color: var(--n8);
   }
 
   .links {
