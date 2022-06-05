@@ -4,6 +4,7 @@ import Link from "next/link";
 import { useRouter } from "next/router";
 import React, { useState } from "react";
 import Icon from "../Icon";
+import OutsideClickHandler from "react-outside-click-handler";
 
 const links = [
   { name: "Home", href: "/" },
@@ -29,32 +30,35 @@ const Header = () => {
     <header className={styles.section}>
       <div className={cn("container", styles.container)}>
         <p className={cn("body-bold")}>Vedio</p>
+        <OutsideClickHandler onOutsideClick={() => setMenu(false)}>
+          <div className={menu ? styles.responsive_links : styles.links}>
+            {links.map((item, index) => (
+              <Link key={index} href={item.href}>
+                <a
+                  className={cn(
+                    "button-small",
+                    router.pathname == item.href
+                      ? styles.active
+                      : styles.inactive
+                  )}
+                >
+                  {item.name}
+                </a>
+              </Link>
+            ))}
 
-        <div className={menu ? styles.responsive_links : styles.links}>
-          {links.map((item, index) => (
-            <Link key={index} href={item.href}>
-              <a
-                className={cn(
-                  "button-small",
-                  router.pathname == item.href ? styles.active : styles.inactive
-                )}
-              >
-                {item.name}
-              </a>
-            </Link>
-          ))}
+            <button
+              className={cn("button-svg", styles.close_button)}
+              onClick={closeMenu}
+            >
+              <Icon name="close" />
+            </button>
 
-          <button
-            className={cn("button-svg", styles.close_button)}
-            onClick={closeMenu}
-          >
-            <Icon name="close" />
-          </button>
-
-          <button className={cn("button-small", styles.menu_link)}>
-            {"Let's talk"}
-          </button>
-        </div>
+            <button className={cn("button-small", styles.menu_link)}>
+              {"Let's talk"}
+            </button>
+          </div>
+        </OutsideClickHandler>
 
         <button className={cn("button-small", styles.link)}>
           {"Let's talk"}
