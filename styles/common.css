@@ -39,3 +39,11 @@ img {
   height: 100%;
   margin: 0 auto;
 }
+
+.number {
+  padding: 8px 22px;
+  background-color: var(--s1);
+  border-radius: 4px;
+  color: var(--n8);
+  margin-bottom: 24px;
+}

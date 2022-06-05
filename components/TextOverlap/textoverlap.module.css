@@ -1,0 +1,14 @@
+.container {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.title {
+  position: absolute;
+}
+
+.text {
+  color: var(--n6);
+}

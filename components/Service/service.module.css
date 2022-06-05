@@ -1,0 +1,10 @@
+.container {
+  padding: 60px 40px;
+  background-color: var(--n7);
+  border-radius: 8px;
+}
+
+.title {
+  margin-top: 32px;
+  margin-bottom: 16px;
+}
