@@ -48,4 +48,8 @@
   .content {
     padding: 32px;
   }
+
+  .button {
+    width: 100%;
+  }
 }

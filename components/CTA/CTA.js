@@ -16,7 +16,7 @@ const CTA = () => {
               Donec et enim vitae tellus auctor menean leo diamfeugiat nulla
               sed. consequat venenatis est. Praesent commodo consequat pharetra.
             </p>
-            <button className={cn("button")}>Contact</button>
+            <button className={cn("button", styles.button)}>Contact</button>
           </div>
 
           <div className={styles.image_container}>
