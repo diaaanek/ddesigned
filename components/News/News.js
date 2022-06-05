@@ -7,22 +7,19 @@ import styles from "./news.module.css";
 
 const news = [
   {
-    icon: "paint-bucket",
-    title: "UI-X Design",
-    subtitle:
-      "Aenean non accumsan ante. Duis et risus accumsan sem tempus porta nec sit amet estsed ut euismod.",
+    image: "/images/03.jpg",
+    text: "REPUTATION",
+    title: "Quisque Iddiam Velquam Elementum Pulvinar.",
   },
   {
-    icon: "plugin",
-    title: "App Development",
-    subtitle:
-      "Aenean non accumsan ante. Duis et risus accumsan sem tempus porta nec sit amet estsed ut euismod.",
+    image: "/images/04.jpg",
+    text: "COPPED UP",
+    title: "Quisque Iddiam Velquam Elementum Pulvinar.",
   },
   {
-    icon: "globe",
-    title: "Web Development",
-    subtitle:
-      "Aenean non accumsan ante. Duis et risus accumsan sem tempus porta nec sit amet estsed ut euismod.",
+    image: "/images/05.jpg",
+    text: "LEMON TREE",
+    title: "Quisque Iddiam Velquam Elementum Pulvinar.",
   },
 ];
 
