@@ -44,4 +44,8 @@
 
   .title {
   }
+
+  .content {
+    padding: 32px;
+  }
 }
