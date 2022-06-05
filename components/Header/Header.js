@@ -2,7 +2,7 @@ import styles from "./header.module.css";
 import cn from "classnames";
 import Link from "next/link";
 import { useRouter } from "next/router";
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import Icon from "../Icon";
 import OutsideClickHandler from "react-outside-click-handler";
 
@@ -17,6 +17,7 @@ const links = [
 const Header = () => {
   const router = useRouter();
   const [menu, setMenu] = useState(false);
+  const [navbar, setNavbar] = useState(false);
 
   const openMenu = () => {
     setMenu(!menu);
@@ -26,8 +27,22 @@ const Header = () => {
     setMenu(false);
   };
 
+  const changeBackground = () => {
+    if (window.scrollY >= 66) {
+      setNavbar(true);
+    } else {
+      setNavbar(false);
+    }
+  };
+
+  useEffect(() => {
+    changeBackground();
+
+    window.addEventListener("scroll", changeBackground);
+  });
+
   return (
-    <header className={styles.section}>
+    <header className={navbar ? styles.section_active : styles.section_active}>
       <div className={cn("container", styles.container)}>
         <p className={cn("body-bold", styles.logo)}>Vedio</p>
         <OutsideClickHandler onOutsideClick={() => setMenu(false)}>

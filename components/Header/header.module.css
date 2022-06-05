@@ -1,4 +1,4 @@
-.section {
+.section_active {
   height: 120px;
   display: flex;
   align-items: center;
@@ -60,12 +60,13 @@
   .link {
     display: none;
   }
-  .section {
+  .section_active {
     position: fixed;
     z-index: 99;
     top: 0;
     left: 0;
     right: 0;
+    background-color: var(--n8);
   }
 
   .links {
