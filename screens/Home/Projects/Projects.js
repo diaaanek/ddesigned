@@ -3,8 +3,6 @@ import Tag from "../../../components/Tag";
 import TextOverlap from "../../../components/TextOverlap";
 import Project from "./Project";
 import styles from "./projects.module.css";
-import React, { useState } from "react";
-import VideoModal from "../../../components/VideoModal";
 
 const projects = [
   {

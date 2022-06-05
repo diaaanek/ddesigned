@@ -1,6 +1,6 @@
 import React from "react";
 import Layout from "../components/Layout";
-import { Hero, Projects, Services } from "../screens/Home";
+import { Clients, Hero, Projects, Services } from "../screens/Home";
 
 export default function Home() {
   return (
@@ -8,6 +8,7 @@ export default function Home() {
       <Hero />
       <Services />
       <Projects />
+      <Clients />
     </Layout>
   );
 }
