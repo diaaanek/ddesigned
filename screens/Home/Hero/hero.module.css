@@ -32,7 +32,7 @@
 .wrapper {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  grid-gap: 8px;
+  grid-gap: 16px;
 }
 
 .stats_wrapper {
@@ -80,9 +80,8 @@
   }
 
   .wrapper {
-    display: grid;
     grid-template-columns: 1fr;
-    grid-gap: 16px;
+    grid-gap: 8px;
     width: 100%;
   }
 
