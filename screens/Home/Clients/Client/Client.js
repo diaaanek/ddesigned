@@ -12,7 +12,7 @@ const Client = (props) => {
         xmlns="http://www.w3.org/2000/svg"
       >
         <g clip-path="url(#clip0_131_474)">
-          <path d={props.name} fill="#23262F" />
+          <path d={props.name} />
         </g>
         <defs>
           <clipPath id="clip0_131_474">
