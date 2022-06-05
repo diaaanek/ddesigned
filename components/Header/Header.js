@@ -42,7 +42,10 @@ const Header = () => {
   });
 
   return (
-    <header className={navbar ? styles.section_active : styles.section}>
+    <header
+      style={{ background: navbar ? "red" : "blue" }}
+      className={styles.section}
+    >
       <div className={cn("container", styles.container)}>
         <p
           className={cn("body-bold", navbar ? styles.logo_active : styles.logo)}
