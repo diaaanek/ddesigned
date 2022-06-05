@@ -43,12 +43,13 @@ const Header = () => {
 
   return (
     <header
-      style={{ background: navbar ? "red" : "blue" }}
+      style={{ background: navbar ? "#fcfcfd" : "" }}
       className={styles.section}
     >
       <div className={cn("container", styles.container)}>
         <p
-          className={cn("body-bold", navbar ? styles.logo_active : styles.logo)}
+          style={{ color: navbar ? "" : "#fcfcfd" }}
+          className={cn("body-bold", styles.logo)}
         >
           Vedio
         </p>
