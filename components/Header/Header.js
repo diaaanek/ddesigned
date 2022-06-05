@@ -14,6 +14,8 @@ const links = [
   { name: "Contact", href: "/contact" },
 ];
 
+const white = "#fcfcfd";
+
 const Header = () => {
   const router = useRouter();
   const [menu, setMenu] = useState(false);
@@ -43,12 +45,12 @@ const Header = () => {
 
   return (
     <header
-      style={{ background: navbar ? "#fcfcfd" : "" }}
+      style={{ background: navbar ? white : "" }}
       className={styles.section}
     >
       <div className={cn("container", styles.container)}>
         <p
-          style={{ color: navbar ? "" : "#fcfcfd" }}
+          style={{ color: navbar ? "" : white }}
           className={cn("body-bold", styles.logo)}
         >
           Vedio
