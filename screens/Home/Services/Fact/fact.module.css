@@ -9,3 +9,7 @@
   margin-top: 24px;
   margin-bottom: 16px;
 }
+
+.icon {
+  fill: var(--p1);
+}

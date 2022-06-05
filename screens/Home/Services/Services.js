@@ -28,22 +28,22 @@ const services = [
 
 const facts = [
   {
-    icon: "paint-bucket",
+    icon: "diamond",
     number: "498k",
     title: "Subscribers",
   },
   {
-    icon: "plugin",
+    icon: "star",
     number: "300+",
     title: "Projects",
   },
   {
-    icon: "globe",
+    icon: "heart",
     number: "400",
     title: "Websites",
   },
   {
-    icon: "globe",
+    icon: "speed-test",
     number: "199",
     title: "Apps",
   },
