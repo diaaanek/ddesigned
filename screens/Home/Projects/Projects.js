@@ -1,7 +1,23 @@
 import cn from "classnames";
 import Tag from "../../../components/Tag";
 import TextOverlap from "../../../components/TextOverlap";
+import Project from "./Project";
 import styles from "./projects.module.css";
+
+const projects = [
+  {
+    image: "/images/01.jpg",
+    title: "Wasting Angels",
+  },
+  {
+    image: "/images/01.jpg",
+    title: "Reputation",
+  },
+  {
+    image: "/images/01.jpg",
+    title: "Lemon Tree",
+  },
+];
 
 const Projects = () => {
   return (
@@ -16,6 +32,12 @@ const Projects = () => {
           <button className={cn("button-small", styles.button)}>
             View Projects
           </button>
+        </div>
+
+        <div className={styles.wrapper}>
+          {projects.map((item, index) => (
+            <Project key={index} {...item} />
+          ))}
         </div>
       </div>
     </div>
