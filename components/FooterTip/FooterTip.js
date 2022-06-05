@@ -5,7 +5,14 @@ const FooterTip = () => {
   return (
     <div className={cn("container", styles.container)}>
       <p className={cn("caption", styles.title)}>
-        Copyright © 2022 - React Theme by Angel Uriostegui
+        Copyright © 2022 - React Theme by{" "}
+        <a
+          href="https://uriostegui.vercel.app"
+          target="_blank"
+          className={cn("caption-bold", styles.author)}
+        >
+          Angel Uriostegui
+        </a>
       </p>
       <p className={cn("caption")}>Terms & Conditions | Privacy Policy </p>
     </div>
