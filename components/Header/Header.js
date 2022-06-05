@@ -42,7 +42,7 @@ const Header = () => {
   });
 
   return (
-    <header className={navbar ? styles.section_active : styles.section_active}>
+    <header className={navbar ? styles.section_active : styles.section}>
       <div className={cn("container", styles.container)}>
         <p className={cn("body-bold", styles.logo)}>Vedio</p>
         <OutsideClickHandler onOutsideClick={() => setMenu(false)}>
