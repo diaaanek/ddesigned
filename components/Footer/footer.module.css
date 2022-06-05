@@ -68,10 +68,16 @@
     grid-template-columns: repeat(2, auto);
     margin-top: 48px;
   }
-}
 
-@media (max-width: 474px) {
-  .sub_content {
-    grid-template-columns: repeat(1, auto);
+  .main_content {
+    max-width: 100%;
+  }
+
+  .newsletter {
+    flex-direction: column;
+  }
+
+  .input {
+    margin-bottom: 8px;
   }
 }
