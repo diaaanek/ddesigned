@@ -50,6 +50,10 @@ const Header = () => {
           >
             <Icon name="close" />
           </button>
+
+          <button className={cn("button-small", styles.menu_link)}>
+            {"Let's talk"}
+          </button>
         </div>
 
         <button className={cn("button-small", styles.link)}>

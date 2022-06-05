@@ -48,6 +48,10 @@
   display: none;
 }
 
+.menu_link {
+  display: none;
+}
+
 @media (max-width: 768px) {
   .link {
     display: none;
@@ -65,12 +69,17 @@
     display: none;
   }
 
+  .menu_link {
+    display: block;
+  }
+
   .responsive_links {
     display: grid;
     grid-template-columns: repeat(1, auto);
     grid-gap: 32px;
     align-items: center;
     justify-content: center;
+    text-align: center;
     position: absolute;
     background: var(--n8);
     top: 32px;
