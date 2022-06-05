@@ -26,7 +26,10 @@
 @media (max-width: 474px) {
   .upper_content {
     flex-direction: column;
-    justify-content: center;
+  }
+
+  .content {
+    align-items: center;
   }
 
   .button {
