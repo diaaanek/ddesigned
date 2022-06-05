@@ -3,6 +3,7 @@ import cn from "classnames";
 import TextOverlap from "../../../components/TextOverlap";
 import Tag from "../../../components/Tag";
 import Service from "../../../components/Service";
+import Fact from "./Fact";
 
 const services = [
   {
@@ -25,6 +26,29 @@ const services = [
   },
 ];
 
+const facts = [
+  {
+    icon: "paint-bucket",
+    number: "498k",
+    title: "Subscribers",
+  },
+  {
+    icon: "plugin",
+    number: "300+",
+    title: "Projects",
+  },
+  {
+    icon: "globe",
+    number: "400",
+    title: "Websites",
+  },
+  {
+    icon: "globe",
+    number: "199",
+    title: "Apps",
+  },
+];
+
 const Services = () => {
   return (
     <div className={cn("section")}>
@@ -43,6 +67,12 @@ const Services = () => {
         <div className={styles.wrapper}>
           {services.map((item, index) => (
             <Service key={index} {...item} />
+          ))}
+        </div>
+
+        <div className={styles.facts_wrapper}>
+          {facts.map((item, index) => (
+            <Fact key={index} {...item} />
           ))}
         </div>
       </div>
