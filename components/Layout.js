@@ -1,5 +1,6 @@
 import Head from "next/head";
 import Footer from "./Footer/Footer";
+import FooterTip from "./FooterTip";
 import Header from "./Header";
 
 const Layout = ({ children }) => {
@@ -13,6 +14,7 @@ const Layout = ({ children }) => {
       <Header />
       {children}
       <Footer />
+      <FooterTip />
     </>
   );
 };
