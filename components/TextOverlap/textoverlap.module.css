@@ -12,3 +12,9 @@
 .text {
   color: var(--n6);
 }
+
+@media (max-width: 768px) {
+  .container {
+    justify-content: center;
+  }
+}
