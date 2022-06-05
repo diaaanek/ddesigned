@@ -32,10 +32,6 @@
   color: var(--n2);
 }
 
-.responsive_navigation {
-  display: block;
-}
-
 .open_button {
   display: none;
 }
@@ -55,6 +51,14 @@
 @media (max-width: 768px) {
   .link {
     display: none;
+  }
+
+  .logo {
+    color: var(--n8);
+  }
+
+  .active_logo {
+    color: var(--n2);
   }
 
   .section {

@@ -50,8 +50,7 @@ const Header = () => {
     >
       <div className={cn("container", styles.container)}>
         <p
-          style={{ color: navbar ? "" : white }}
-          className={cn("body-bold", styles.logo)}
+          className={cn("body-bold", navbar ? styles.active_logo : styles.logo)}
         >
           Vedio
         </p>
