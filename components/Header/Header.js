@@ -2,6 +2,8 @@ import styles from "./header.module.css";
 import cn from "classnames";
 import Link from "next/link";
 import { useRouter } from "next/router";
+import React, { useState } from "react";
+import Icon from "../Icon";
 
 const links = [
   { name: "Home", href: "/" },
@@ -13,13 +15,22 @@ const links = [
 
 const Header = () => {
   const router = useRouter();
+  const [menu, setMenu] = useState(false);
+
+  const openMenu = () => {
+    setMenu(!menu);
+  };
+
+  const closeMenu = () => {
+    setMenu(false);
+  };
 
   return (
     <header className={styles.section}>
       <div className={cn("container", styles.container)}>
         <p className={cn("body-bold")}>Vedio</p>
 
-        <div className={styles.links}>
+        <div className={menu ? styles.responsive_links : styles.links}>
           {links.map((item, index) => (
             <Link key={index} href={item.href}>
               <a
@@ -32,9 +43,24 @@ const Header = () => {
               </a>
             </Link>
           ))}
+
+          <button
+            className={cn("button-svg", styles.close_button)}
+            onClick={closeMenu}
+          >
+            <Icon name="close" />
+          </button>
         </div>
+
         <button className={cn("button-small", styles.link)}>
           {"Let's talk"}
+        </button>
+
+        <button
+          className={cn("button-svg", styles.open_button)}
+          onClick={openMenu}
+        >
+          <Icon name="menu" />
         </button>
       </div>
     </header>

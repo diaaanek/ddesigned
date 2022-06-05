@@ -53,7 +53,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  background: var(--n2);
+  background: var(--n7);
   transition: all 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275);
   outline: none;
 }
@@ -63,13 +63,12 @@
   background: var(--p1);
 }
 
-.button-svg:hover svg,
-.button-svg:active svg {
+.button-svg:hover svg {
   fill: var(--n8);
 }
 
 .button-svg svg {
-  fill: var(--n8);
+  fill: var(--n2);
 }
 
 .svg-active {
