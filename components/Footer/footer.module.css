@@ -18,13 +18,14 @@
 
 .newsletter {
   margin-top: 16px;
-  display: flex;
+  display: grid;
+  grid-template-columns: repeat(2, auto);
+  grid-gap: 8px;
 }
 
 .input {
   padding: 18px;
   border: 1px solid var(--n6);
-  margin-right: 8px;
   border-radius: 8px;
   color: var(--n2);
 }
@@ -75,10 +76,6 @@
   }
 
   .newsletter {
-    flex-direction: column;
-  }
-
-  .input {
-    margin-bottom: 8px;
+    grid-template-columns: repeat(1, auto);
   }
 }
