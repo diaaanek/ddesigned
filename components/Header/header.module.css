@@ -49,6 +49,15 @@
 }
 
 @media (max-width: 768px) {
+  .section {
+    position: fixed;
+    z-index: 99;
+    top: 0;
+    left: 0;
+    right: 0;
+    transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+  }
+
   .link {
     display: none;
   }
@@ -59,15 +68,6 @@
 
   .active_logo {
     color: var(--n2);
-  }
-
-  .section {
-    position: fixed;
-    z-index: 99;
-    top: 0;
-    left: 0;
-    right: 0;
-    transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
   }
 
   .links {
@@ -105,10 +105,6 @@
     position: absolute;
     top: 32px;
     right: 32px;
-  }
-
-  .responsive_button {
-    display: block;
   }
 }
 
