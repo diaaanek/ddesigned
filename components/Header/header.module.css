@@ -65,19 +65,6 @@
     right: 0;
   }
 
-  .section_active {
-    background-color: var(--n8);
-    position: fixed;
-    z-index: 99;
-    top: 0;
-    left: 0;
-    right: 0;
-    height: 120px;
-    display: flex;
-
-    align-items: center;
-  }
-
   .links {
     display: none;
   }
