@@ -52,6 +52,10 @@
   display: none;
 }
 
+.logo_active {
+  color: var(--n2);
+}
+
 @media (max-width: 768px) {
   .logo {
     color: var(--n8);

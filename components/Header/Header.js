@@ -27,7 +27,7 @@ const Header = () => {
     setMenu(false);
   };
 
-  const changeBackground = () => {
+  const colorChange = () => {
     if (window.scrollY >= 66) {
       setNavbar(true);
     } else {
@@ -36,15 +36,19 @@ const Header = () => {
   };
 
   useEffect(() => {
-    changeBackground();
+    colorChange();
 
-    window.addEventListener("scroll", changeBackground);
+    window.addEventListener("scroll", colorChange);
   });
 
   return (
     <header className={navbar ? styles.section_active : styles.section}>
       <div className={cn("container", styles.container)}>
-        <p className={cn("body-bold", styles.logo)}>Vedio</p>
+        <p
+          className={cn("body-bold", navbar ? styles.logo_active : styles.logo)}
+        >
+          Vedio
+        </p>
         <OutsideClickHandler onOutsideClick={() => setMenu(false)}>
           <div className={menu ? styles.responsive_links : styles.links}>
             {links.map((item, index) => (
