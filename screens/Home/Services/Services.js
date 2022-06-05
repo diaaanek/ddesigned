@@ -35,7 +35,9 @@ const Services = () => {
             <TextOverlap title="Services" text="Services" />
           </div>
 
-          <button className={cn("button-small")}>View Services</button>
+          <button className={cn("button-small", styles.button)}>
+            View Services
+          </button>
         </div>
 
         <div className={styles.wrapper}>
