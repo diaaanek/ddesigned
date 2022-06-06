@@ -15,3 +15,7 @@
 .title {
   color: var(--n2);
 }
+
+.icon {
+  fill: var(--p1);
+}
