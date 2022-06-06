@@ -4,7 +4,7 @@ import Breadcrumb from "../../../components/Breadcrumb";
 
 const Hero = () => {
   return (
-    <div className={cn("section")}>
+    <div className={cn("section", styles.section)}>
       <div className={cn("container", styles.container)}>
         <div className={styles.content}>
           <Breadcrumb />
