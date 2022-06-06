@@ -25,6 +25,24 @@ const services = [
     subtitle:
       "Aenean non accumsan ante. Duis et risus accumsan sem tempus porta nec sit amet estsed ut euismod.",
   },
+  {
+    icon: "paint-bucket",
+    title: "UI-X Design",
+    subtitle:
+      "Aenean non accumsan ante. Duis et risus accumsan sem tempus porta nec sit amet estsed ut euismod.",
+  },
+  {
+    icon: "plugin",
+    title: "App Development",
+    subtitle:
+      "Aenean non accumsan ante. Duis et risus accumsan sem tempus porta nec sit amet estsed ut euismod.",
+  },
+  {
+    icon: "globe",
+    title: "Web Development",
+    subtitle:
+      "Aenean non accumsan ante. Duis et risus accumsan sem tempus porta nec sit amet estsed ut euismod.",
+  },
 ];
 
 const Hero = () => {
