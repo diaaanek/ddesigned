@@ -6,6 +6,10 @@
   padding: 8px 12px;
   border-radius: 4px;
   box-shadow: 0 10px 20px rgba(35, 38, 47, 0.2);
+  display: grid;
+  grid-template-columns: repeat(2, auto);
+  align-items: center;
+  grid-gap: 6px;
 }
 
 .title {
