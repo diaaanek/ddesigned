@@ -84,6 +84,7 @@ const Hero = () => {
           <div className={styles.author}>
             <p className={cn("caption", styles.name)}>Angel Uriostegui</p>
           </div>
+          <div className={styles.overlay} />
         </div>
       </div>
     </div>
