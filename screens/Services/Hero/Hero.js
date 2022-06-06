@@ -15,9 +15,9 @@ const Hero = () => {
       <div className={cn("container", styles.container)}>
         <div className={styles.content}>
           <Breadcrumb name="SERVICES" />
-          <motion.div variants={item} className={cn("hero", styles.title)}>
+          <motion.h1 variants={item} className={cn("hero", styles.title)}>
             Services
-          </motion.div>
+          </motion.h1>
           <motion.p variants={item} className={cn("body", styles.subtitle)}>
             Pellentesque tincidunt tristique neque, eget venenatis enim gravida
             quis. Fusce at egestas libero. Cras convallis egestas ullamcorper
