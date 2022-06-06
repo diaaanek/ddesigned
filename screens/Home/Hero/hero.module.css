@@ -32,6 +32,10 @@
   color: var(--p1);
 }
 
+.text {
+  color: var(--n8);
+}
+
 .wrapper {
   display: grid;
   grid-template-columns: 1fr 1fr;
