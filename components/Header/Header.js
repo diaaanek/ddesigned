@@ -45,7 +45,10 @@ const Header = () => {
 
   return (
     <header
-      style={{ background: navbar ? white : "" }}
+      style={{
+        background: navbar ? white : "",
+        borderBottom: navbar ? "1px solid rgba(35, 38, 47, 0.1)" : "",
+      }}
       className={styles.section}
     >
       <div className={cn("container", styles.container)}>
