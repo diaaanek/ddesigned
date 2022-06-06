@@ -7,7 +7,7 @@ const Hero = () => {
     <div className={cn("section", styles.section)}>
       <div className={cn("container", styles.container)}>
         <div className={styles.content}>
-          <Breadcrumb />
+          <Breadcrumb name="SERVICES" />
           <h1 className={cn("hero", styles.title)}>Services</h1>
           <p className={cn("body", styles.subtitle)}>
             Pellentesque tincidunt tristique neque, eget venenatis enim gravida
