@@ -41,8 +41,8 @@ const News = () => {
 
         <div className={styles.wrapper}>
           {news.map((item, index) => (
-            <ScrollAnimation>
-              <Item key={index} {...item} />
+            <ScrollAnimation key={index}>
+              <Item {...item} />
             </ScrollAnimation>
           ))}
         </div>
