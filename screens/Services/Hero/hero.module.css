@@ -1,3 +1,7 @@
+.section {
+  padding-top: 200px;
+}
+
 .container {
   display: flex;
   align-items: center;
@@ -12,10 +16,4 @@
 .title {
   margin-bottom: 24px;
   margin-top: 24px;
-}
-
-@media (max-width: 768px) {
-  .section {
-    padding-top: 200px;
-  }
 }
