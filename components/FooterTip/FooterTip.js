@@ -9,6 +9,7 @@ const FooterTip = () => {
         <a
           href="https://uriostegui.vercel.app"
           target="_blank"
+          rel="noreferrer"
           className={cn("caption-bold", styles.author)}
         >
           Angel Uriostegui
