@@ -4,6 +4,7 @@ import TextOverlap from "../../../components/TextOverlap";
 import Tag from "../../../components/Tag";
 import Service from "../../../components/Service";
 import Fact from "./Fact";
+import ScrollAnimation from "../../../components/ScrollAnimation";
 
 const services = [
   {
@@ -66,13 +67,16 @@ const Services = () => {
 
         <div className={styles.wrapper}>
           {services.map((item, index) => (
-            <Service key={index} {...item} />
+            <ScrollAnimation>
+              <Service key={index} {...item} />
+            </ScrollAnimation>
           ))}
         </div>
-
         <div className={styles.facts_wrapper}>
           {facts.map((item, index) => (
-            <Fact key={index} {...item} />
+            <ScrollAnimation>
+              <Fact key={index} {...item} />
+            </ScrollAnimation>
           ))}
         </div>
       </div>
