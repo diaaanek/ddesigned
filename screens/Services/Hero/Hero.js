@@ -26,20 +26,20 @@ const services = [
       "Aenean non accumsan ante. Duis et risus accumsan sem tempus porta nec sit amet estsed ut euismod.",
   },
   {
-    icon: "paint-bucket",
-    title: "UI-X Design",
+    icon: "zoom-check",
+    title: "Research",
     subtitle:
       "Aenean non accumsan ante. Duis et risus accumsan sem tempus porta nec sit amet estsed ut euismod.",
   },
   {
-    icon: "plugin",
-    title: "App Development",
+    icon: "shield-check",
+    title: "Hosting",
     subtitle:
       "Aenean non accumsan ante. Duis et risus accumsan sem tempus porta nec sit amet estsed ut euismod.",
   },
   {
-    icon: "globe",
-    title: "Web Development",
+    icon: "speed-test",
+    title: "Deployment",
     subtitle:
       "Aenean non accumsan ante. Duis et risus accumsan sem tempus porta nec sit amet estsed ut euismod.",
   },
