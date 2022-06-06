@@ -3,6 +3,29 @@ import styles from "./hero.module.css";
 import Breadcrumb from "../../../components/Breadcrumb";
 import { motion } from "framer-motion";
 import { variants, item } from "../../../variants/animation";
+import Service from "../../../components/Service";
+import ScrollAnimation from "../../../components/ScrollAnimation";
+
+const services = [
+  {
+    icon: "paint-bucket",
+    title: "UI-X Design",
+    subtitle:
+      "Aenean non accumsan ante. Duis et risus accumsan sem tempus porta nec sit amet estsed ut euismod.",
+  },
+  {
+    icon: "plugin",
+    title: "App Development",
+    subtitle:
+      "Aenean non accumsan ante. Duis et risus accumsan sem tempus porta nec sit amet estsed ut euismod.",
+  },
+  {
+    icon: "globe",
+    title: "Web Development",
+    subtitle:
+      "Aenean non accumsan ante. Duis et risus accumsan sem tempus porta nec sit amet estsed ut euismod.",
+  },
+];
 
 const Hero = () => {
   return (
@@ -23,6 +46,14 @@ const Hero = () => {
             quis. Fusce at egestas libero. Cras convallis egestas ullamcorper
             suspens.
           </motion.p>
+        </div>
+
+        <div className={styles.wrapper}>
+          {services.map((item, index) => (
+            <ScrollAnimation>
+              <Service key={index} {...item} />
+            </ScrollAnimation>
+          ))}
         </div>
       </div>
     </motion.div>
