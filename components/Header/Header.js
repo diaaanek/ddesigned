@@ -49,11 +49,17 @@ const Header = () => {
       className={styles.section}
     >
       <div className={cn("container", styles.container)}>
-        <p
-          className={cn("body-bold", navbar ? styles.active_logo : styles.logo)}
-        >
-          Vedio
-        </p>
+        <Link href="/">
+          <a
+            className={cn(
+              "body-bold",
+              navbar ? styles.active_logo : styles.logo
+            )}
+          >
+            Vedio
+          </a>
+        </Link>
+
         <OutsideClickHandler onOutsideClick={() => setMenu(false)}>
           <div className={menu ? styles.responsive_links : styles.links}>
             {links.map((item, index) => (
