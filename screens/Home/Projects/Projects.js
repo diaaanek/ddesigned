@@ -1,4 +1,5 @@
 import cn from "classnames";
+import ScrollAnimation from "../../../components/ScrollAnimation";
 import Tag from "../../../components/Tag";
 import TextOverlap from "../../../components/TextOverlap";
 import Project from "./Project";
@@ -54,7 +55,9 @@ const Projects = () => {
 
         <div className={styles.wrapper}>
           {projects.map((item, index) => (
-            <Project key={index} {...item} />
+            <ScrollAnimation>
+              <Project key={index} {...item} />
+            </ScrollAnimation>
           ))}
         </div>
       </div>

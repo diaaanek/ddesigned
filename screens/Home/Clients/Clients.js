@@ -3,6 +3,7 @@ import styles from "./clients.module.css";
 import TextOverlap from "../../../components/TextOverlap";
 import Tag from "../../../components/Tag";
 import Client from "./Client";
+import ScrollAnimation from "../../../components/ScrollAnimation";
 
 const logos = [
   {
@@ -36,7 +37,9 @@ const Clients = () => {
 
         <div className={styles.wrapper}>
           {logos.map((item, index) => (
-            <Client {...item} />
+            <ScrollAnimation>
+              <Client {...item} />
+            </ScrollAnimation>
           ))}
         </div>
       </div>

@@ -1,4 +1,5 @@
 import cn from "classnames";
+import ScrollAnimation from "../ScrollAnimation";
 import Service from "../Service";
 import Tag from "../Tag";
 import TextOverlap from "../TextOverlap";
@@ -40,7 +41,9 @@ const News = () => {
 
         <div className={styles.wrapper}>
           {news.map((item, index) => (
-            <Item key={index} {...item} />
+            <ScrollAnimation>
+              <Item key={index} {...item} />
+            </ScrollAnimation>
           ))}
         </div>
       </div>

@@ -1,4 +1,5 @@
 import cn from "classnames";
+import ScrollAnimation from "../ScrollAnimation";
 import Tag from "../Tag";
 import styles from "./cta.module.css";
 
@@ -19,9 +20,11 @@ const CTA = () => {
             <button className={cn("button", styles.button)}>Contact</button>
           </div>
 
-          <div className={styles.image_container}>
-            <img className={styles.image} src="/images/hamid.png" />
-          </div>
+          <ScrollAnimation>
+            <div className={styles.image_container}>
+              <img className={styles.image} src="/images/hamid.png" />
+            </div>
+          </ScrollAnimation>
         </div>
       </div>
     </div>
