@@ -51,7 +51,7 @@ const Hero = () => {
       initial="hidden"
       animate="show"
       variants={variants}
-      className={cn("section", styles.section)}
+      className={cn("section section-pt", styles.section)}
     >
       <div className={cn("container", styles.container)}>
         <div className={styles.content}>
