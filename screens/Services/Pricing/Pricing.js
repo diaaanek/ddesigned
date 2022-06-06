@@ -9,21 +9,26 @@ const pricing = [
   {
     plan: "BASIC",
     price: "$40",
+    background: "#f4f5f6",
     options: ["true", "true", "false", "false", "false"],
   },
   {
     plan: "BASIC",
     price: "$50",
+    color: "#fcfcfd",
+    background: "#2a85ff",
     options: ["true", "true", "true", "false", "false"],
   },
   {
     plan: "BASIC",
     price: "$60",
+    background: "#f4f5f6",
     options: ["true", "true", "true", "true", "false"],
   },
   {
     plan: "BASIC",
     price: "$70",
+    background: "#f4f5f6",
     options: ["true", "true", "true", "true", "true"],
   },
 ];
@@ -34,9 +39,7 @@ const Pricing = () => {
       return (
         <div className={styles.feature}>
           <Icon name="tick" />
-          <p className={cn("caption-bold")} style={{ color: "#23262f" }}>
-            Lorem ipsum dolor
-          </p>
+          <p className={cn("caption-bold")}>Lorem ipsum dolor</p>
         </div>
       );
     }
@@ -69,9 +72,17 @@ const Pricing = () => {
 
         <div className={styles.wrapper}>
           {pricing.map((type, index) => (
-            <div className={styles.item_container}>
+            <div
+              className={styles.item_container}
+              style={{ background: type.background }}
+            >
               <p className={cn("hairline-small")}>{type.plan}</p>
-              <h2 className={cn("h1", styles.price)}>{type.price}</h2>
+              <h2
+                className={cn("h1", styles.price)}
+                style={{ color: type.color }}
+              >
+                {type.price}
+              </h2>
               <div className={styles.features}>
                 <div className={styles.feature}>
                   {renderContent(type.options[index])}
@@ -84,7 +95,12 @@ const Pricing = () => {
                   </p> */}
                 </div>
               </div>
-              <button className={cn("button")}>Buy Now</button>
+              <button
+                style={{ background: type.color, color: type.background }}
+                className={cn("button")}
+              >
+                Buy Now
+              </button>
             </div>
           ))}
         </div>
