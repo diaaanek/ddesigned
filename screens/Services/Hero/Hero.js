@@ -1,22 +1,31 @@
 import cn from "classnames";
 import styles from "./hero.module.css";
 import Breadcrumb from "../../../components/Breadcrumb";
+import { motion } from "framer-motion";
+import { variants, item } from "../../../variants/animation";
 
 const Hero = () => {
   return (
-    <div className={cn("section", styles.section)}>
+    <motion.div
+      initial="hidden"
+      animate="show"
+      variants={variants}
+      className={cn("section", styles.section)}
+    >
       <div className={cn("container", styles.container)}>
         <div className={styles.content}>
           <Breadcrumb name="SERVICES" />
-          <h1 className={cn("hero", styles.title)}>Services</h1>
-          <p className={cn("body", styles.subtitle)}>
+          <motion.div variants={item} className={cn("hero", styles.title)}>
+            Services
+          </motion.div>
+          <motion.p variants={item} className={cn("body", styles.subtitle)}>
             Pellentesque tincidunt tristique neque, eget venenatis enim gravida
             quis. Fusce at egestas libero. Cras convallis egestas ullamcorper
             suspens.
-          </p>
+          </motion.p>
         </div>
       </div>
-    </div>
+    </motion.div>
   );
 };
 

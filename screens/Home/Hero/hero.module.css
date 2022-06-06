@@ -10,11 +10,8 @@
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  /* background-color: var(--n8); */
   max-width: 600px;
-
   border-radius: 8px;
-  /* border: 1px solid var(--n7); */
 }
 
 .title {
