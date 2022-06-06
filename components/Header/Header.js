@@ -55,6 +55,10 @@ const Header = () => {
               "body-bold",
               navbar ? styles.active_logo : styles.logo
             )}
+            style={{
+              color:
+                router.pathname == "/" ? (navbar ? "#23262f" : "#fcfcfd") : "",
+            }}
           >
             Vedio
           </a>

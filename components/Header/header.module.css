@@ -62,10 +62,6 @@
     display: none;
   }
 
-  .logo {
-    color: var(--n8);
-  }
-
   .active_logo {
     color: var(--n2);
   }
