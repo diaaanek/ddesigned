@@ -5,6 +5,54 @@ import Tag from "../../../components/Tag";
 import Item from "./Item";
 import Icon from "../../../components/Icon";
 
+const options = [
+  {
+    title: "Main features",
+    items: [
+      {
+        title: "Time-Trackers",
+        description: "Some Text",
+      },
+      {
+        title: "Exclusive Music",
+        description: "Some Text",
+      },
+      {
+        title: "E-books",
+        description: "Some Text",
+      },
+      {
+        title: "Documents",
+        description: "Some Text",
+      },
+      {
+        title: "Premium Tutorial",
+        description: "Some Text",
+      },
+      {
+        title: "Client Support",
+        description: "Some Text",
+      },
+      {
+        title: "Premium Courses",
+        description: "Some Text",
+      },
+      {
+        title: "User support",
+        description: "Some Text",
+      },
+      {
+        title: "Chat to trainers",
+        description: "Some Text",
+      },
+      {
+        title: "Unlimited Videos",
+        description: "Some Text",
+      },
+    ],
+  },
+];
+
 const pricing = [
   {
     plan: "BASIC",
@@ -39,15 +87,17 @@ const Pricing = () => {
       return (
         <div className={styles.feature}>
           <Icon name="tick" />
-          <p className={cn("caption-bold")}>Lorem ipsum dolor</p>
+          <p className={cn("caption-bold")} style={{ color: "#23262f" }}>
+            Lorem ipsum dolor
+          </p>
         </div>
       );
     }
     if (content === "false") {
       return (
         <div className={styles.feature}>
-          <Icon name="close" />
-          <p className={cn("caption-bold")} style={{ color: "#23262f" }}>
+          <Icon name="close" color="#777e90" />
+          <p className={cn("caption-bold")} style={{ color: "#777e90" }}>
             Lorem ipsum dolor
           </p>
         </div>
@@ -72,35 +122,21 @@ const Pricing = () => {
 
         <div className={styles.wrapper}>
           {pricing.map((type, index) => (
-            <div
-              className={styles.item_container}
-              style={{ background: type.background }}
-            >
+            <div className={styles.item_container}>
               <p className={cn("hairline-small")}>{type.plan}</p>
-              <h2
-                className={cn("h1", styles.price)}
-                style={{ color: type.color }}
-              >
-                {type.price}
-              </h2>
-              <div className={styles.features}>
-                <div className={styles.feature}>
-                  {renderContent(type.options[index])}
-                  {/* <Icon color={type.color} name={type.icon} />
-                  <p
-                    className={cn("caption-bold")}
-                    style={{ color: type.color }}
-                  >
-                    What
-                  </p> */}
+              <h2 className={cn("h1", styles.price)}>{type.price}</h2>
+
+              {options.map((option, optionIndex) => (
+                <div key={optionIndex} className={styles.features}>
+                  {option.items.map((item, itemIndex) => (
+                    <div className={styles.feature} key={itemIndex}>
+                      {renderContent(type.options[itemIndex])}
+                    </div>
+                  ))}
                 </div>
-              </div>
-              <button
-                style={{ background: type.color, color: type.background }}
-                className={cn("button")}
-              >
-                Buy Now
-              </button>
+              ))}
+
+              <button className={cn("button")}>Buy Now</button>
             </div>
           ))}
         </div>
