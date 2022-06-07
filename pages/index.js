@@ -12,7 +12,12 @@ export default function Home() {
       <Projects />
       <Clients />
       <News />
-      <CTA />
+      <CTA
+        number="05"
+        background="#ffd88d"
+        title="Let’s talk about your project"
+        button="Contact"
+      />
     </Layout>
   );
 }
