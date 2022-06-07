@@ -83,7 +83,7 @@ const Pricing = () => {
   };
 
   return (
-    <div className={cn("section")}>
+    <div className={cn("section section-pt")}>
       <div className={cn("container", styles.container)}>
         <div className={styles.upper_content}>
           <div className={styles.content}>
