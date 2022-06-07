@@ -15,7 +15,7 @@ export default function Home() {
         title="30% Discount"
         button="Learn More"
       />
-      <News />
+      <News number="03" />
     </Layout>
   );
 }

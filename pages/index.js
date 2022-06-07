@@ -11,7 +11,7 @@ export default function Home() {
       <Services />
       <Projects />
       <Clients />
-      <News />
+      <News number="04" />
       <CTA
         number="05"
         background="#ffd88d"

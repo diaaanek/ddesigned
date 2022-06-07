@@ -24,13 +24,13 @@ const news = [
   },
 ];
 
-const News = () => {
+const News = (props) => {
   return (
     <div className={cn("section")}>
       <div className={cn("container")}>
         <div className={styles.upper_content}>
           <div className={styles.content}>
-            <Tag number="04" background="#b5e4ca" />
+            <Tag number={props.number} background="#b5e4ca" />
             <TextOverlap title="News" text="News" />
           </div>
 
