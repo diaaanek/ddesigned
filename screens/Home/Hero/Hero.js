@@ -3,6 +3,7 @@ import cn from "classnames";
 import Stats from "./Stats";
 import { motion } from "framer-motion";
 import { variants, item } from "../../../variants/animation";
+import Image from "next/image";
 
 const stats = [
   {
@@ -58,7 +59,13 @@ const Hero = () => {
         </motion.div>
 
         <div className={styles.image_container}>
-          <img className={styles.image} src="/images/avatar.jpg" />
+          <Image
+            className={styles.image}
+            src="/images/avatar.jpg"
+            layout="fill"
+            placeholder="blur"
+            blurDataURL="/images/avatar.jpg"
+          />
 
           <div className={styles.author}>
             <p className={cn("caption", styles.name)}>Angel Uriostegui</p>
