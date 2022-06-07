@@ -27,7 +27,7 @@
 }
 
 .item_container:nth-child(2) {
-  border: 2px solid var(--p1);
+  box-shadow: inset 0 0 0 2px var(--p1);
 }
 
 .feature {
