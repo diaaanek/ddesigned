@@ -10,44 +10,19 @@ const options = [
     title: "Main features",
     items: [
       {
-        title: "Time-Trackers",
-        description: "Some Text",
+        title: "Lorem ipsum dolor",
       },
       {
-        title: "Exclusive Music",
-        description: "Some Text",
+        title: "Lorem ipsum dolor",
       },
       {
-        title: "E-books",
-        description: "Some Text",
+        title: "Lorem ipsum dolor",
       },
       {
-        title: "Documents",
-        description: "Some Text",
+        title: "Lorem ipsum dolor",
       },
       {
-        title: "Premium Tutorial",
-        description: "Some Text",
-      },
-      {
-        title: "Client Support",
-        description: "Some Text",
-      },
-      {
-        title: "Premium Courses",
-        description: "Some Text",
-      },
-      {
-        title: "User support",
-        description: "Some Text",
-      },
-      {
-        title: "Chat to trainers",
-        description: "Some Text",
-      },
-      {
-        title: "Unlimited Videos",
-        description: "Some Text",
+        title: "Lorem ipsum dolor",
       },
     ],
   },
@@ -61,20 +36,20 @@ const pricing = [
     options: ["true", "true", "false", "false", "false"],
   },
   {
-    plan: "BASIC",
+    plan: "SILVER",
     price: "$50",
     color: "#fcfcfd",
     background: "#2a85ff",
     options: ["true", "true", "true", "false", "false"],
   },
   {
-    plan: "BASIC",
+    plan: "GOLD",
     price: "$60",
     background: "#f4f5f6",
     options: ["true", "true", "true", "true", "false"],
   },
   {
-    plan: "BASIC",
+    plan: "DIAMOND",
     price: "$70",
     background: "#f4f5f6",
     options: ["true", "true", "true", "true", "true"],
