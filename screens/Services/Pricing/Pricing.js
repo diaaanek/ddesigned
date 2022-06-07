@@ -87,7 +87,7 @@ const Pricing = () => {
         <div className={styles.upper_content}>
           <div className={styles.content}>
             <Tag number="01" background="#ffbc99" />
-            <TextOverlap title="Services" text="Services" />
+            <TextOverlap title="Pricing" text="Pricing" />
           </div>
 
           <button className={cn("button-small", styles.button)}>
