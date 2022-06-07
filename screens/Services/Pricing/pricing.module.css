@@ -54,6 +54,10 @@
   .wrapper {
     grid-template-columns: repeat(2, 1fr);
   }
+
+  .item_container {
+    padding: 60px 32px;
+  }
 }
 
 @media (max-width: 474px) {
