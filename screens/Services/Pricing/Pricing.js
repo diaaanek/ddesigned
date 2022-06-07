@@ -114,7 +114,9 @@ const Pricing = () => {
                 </div>
               ))}
 
-              <button className={cn("button")}>Buy Now</button>
+              <button className={cn("button", styles.price_button)}>
+                Buy Now
+              </button>
             </div>
           ))}
         </div>

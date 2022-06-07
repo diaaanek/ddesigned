@@ -51,6 +51,10 @@
     margin-top: 32px;
   }
 
+  .price_button {
+    width: 100%;
+  }
+
   .wrapper {
     grid-template-columns: repeat(2, 1fr);
   }
