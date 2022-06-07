@@ -38,7 +38,7 @@ const pricing = [
   {
     plan: "SILVER",
     price: "$50",
-    color: "#fcfcfd",
+    color: "#ff6a55",
     background: "",
     options: ["true", "true", "true", "false", "false"],
   },
@@ -114,7 +114,10 @@ const Pricing = () => {
                 </div>
               ))}
 
-              <button className={cn("button", styles.price_button)}>
+              <button
+                style={{ background: type.color }}
+                className={cn("button", styles.price_button)}
+              >
                 Buy Now
               </button>
             </div>
