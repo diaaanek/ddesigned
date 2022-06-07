@@ -26,7 +26,7 @@ const news = [
 
 const News = (props) => {
   return (
-    <div className={cn("section")}>
+    <div className={cn("section", styles.section)}>
       <div className={cn("container")}>
         <div className={styles.upper_content}>
           <div className={styles.content}>
