@@ -39,7 +39,7 @@ const pricing = [
   {
     plan: "SILVER",
     price: "$50",
-    color: "#ff6a55",
+    shadow: "#2a85ff",
     background: "",
     options: ["true", "true", "true", "false", "false"],
   },
@@ -95,14 +95,16 @@ const Pricing = () => {
             View Services
           </button>
         </div>
-        <ScrollAnimation>
-          <div className={styles.wrapper}>
-            {pricing.map((type, index) => (
+        <div className={styles.wrapper}>
+          {pricing.map((type, index) => (
+            <ScrollAnimation>
               <div
                 className={styles.item_container}
                 style={{
                   background: type.background,
+                  boxShadow: `inset 0 0 0 2px ${type.shadow}`,
                 }}
+                key={index}
               >
                 <p className={cn("hairline-small")}>{type.plan}</p>
                 <h2 className={cn("h1", styles.price)}>{type.price}</h2>
@@ -121,9 +123,9 @@ const Pricing = () => {
                   Buy Now
                 </button>
               </div>
-            ))}
-          </div>
-        </ScrollAnimation>
+            </ScrollAnimation>
+          ))}
+        </div>
       </div>
     </div>
   );

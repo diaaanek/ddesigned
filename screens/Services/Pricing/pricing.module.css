@@ -26,10 +26,6 @@
   border-radius: 8px;
 }
 
-.item_container:nth-child(2) {
-  box-shadow: inset 0 0 0 2px var(--p1);
-}
-
 .feature {
   display: grid;
   grid-template-columns: repeat(2, auto);
