@@ -39,7 +39,7 @@ const pricing = [
     plan: "SILVER",
     price: "$50",
     color: "#fcfcfd",
-    background: "#2a85ff",
+    background: "",
     options: ["true", "true", "true", "false", "false"],
   },
   {
@@ -97,7 +97,10 @@ const Pricing = () => {
 
         <div className={styles.wrapper}>
           {pricing.map((type, index) => (
-            <div className={styles.item_container}>
+            <div
+              className={styles.item_container}
+              style={{ background: type.background }}
+            >
               <p className={cn("hairline-small")}>{type.plan}</p>
               <h2 className={cn("h1", styles.price)}>{type.price}</h2>
 
