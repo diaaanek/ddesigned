@@ -90,7 +90,7 @@ const Pricing = () => {
             <TextOverlap title="Pricing" text="Pricing" />
           </div>
 
-          <button className={cn("button-small", styles.button)}>Support</button>
+          <button className={cn("button-small", styles.button)}>Help</button>
         </div>
 
         <div className={styles.wrapper}>
