@@ -26,6 +26,19 @@ const Hero = () => {
             suspens.
           </motion.p>
         </div>
+
+        <div className={styles.wrapper}>
+          <div className={styles.image_container}>
+            <img className={styles.image} src="/images/avatar.jpg" />
+          </div>
+          <div className={styles.bottom_content}>
+            <span className={cn("hairline-small", styles.text)}>FEATURES</span>
+            <h1 className={cn("h2", styles.bottom_content_title)}>
+              Phasellus Risus Turpis, Pretium Sit Amet Magna
+            </h1>
+            <button className={cn("button")}>Learn More</button>
+          </div>
+        </div>
       </div>
     </motion.div>
   );
