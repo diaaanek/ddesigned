@@ -68,7 +68,11 @@ const Hero = () => {
                 </ScrollAnimation>
               ))}
             </div>
-            <button className={cn("button", styles.button)}>Learn More</button>
+            <ScrollAnimation>
+              <button className={cn("button", styles.button)}>
+                Learn More
+              </button>
+            </ScrollAnimation>
           </div>
         </div>
       </div>
