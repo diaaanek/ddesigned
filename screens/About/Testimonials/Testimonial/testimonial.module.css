@@ -41,3 +41,9 @@
 .position {
   color: var(--n6);
 }
+
+@media (max-width: 768px) {
+  .container {
+    padding: 48px;
+  }
+}

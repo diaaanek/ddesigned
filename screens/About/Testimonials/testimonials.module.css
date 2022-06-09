@@ -47,6 +47,10 @@
 }
 
 @media (max-width: 768px) {
+  .section {
+    padding: 90px 0;
+  }
+
   .container {
     grid-template-columns: repeat(1, 1fr);
   }
