@@ -63,7 +63,9 @@ const Hero = () => {
             </h1>
             <div className={styles.items_wrapper}>
               {items.map((item, index) => (
-                <Item key={index} {...item} />
+                <ScrollAnimation>
+                  <Item key={index} {...item} />
+                </ScrollAnimation>
               ))}
             </div>
             <button className={cn("button", styles.button)}>Learn More</button>
