@@ -2,17 +2,17 @@ import cn from "classnames";
 import styles from "./member.module.css";
 import Icon from "../../../../components/Icon";
 
-const Member = () => {
+const Member = (props) => {
   return (
     <div className={styles.container}>
       <div className={styles.image_container}>
-        <img src="/images/avatar.jpg" className={styles.image} />
+        <img src={props.image} className={styles.image} />
       </div>
 
       <div className={styles.content}>
-        <h4 className={cn("body-2-bold", styles.title)}>Angel Uriostegui</h4>
+        <h4 className={cn("body-2-bold", styles.title)}>{props.name}</h4>
         <span className={cn("hairline-small", styles.position)}>
-          CEO/FOUNDER
+          {props.position}
         </span>
         <div className={styles.socials}>
           <Icon name="twitter" />

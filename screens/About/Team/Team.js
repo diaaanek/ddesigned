@@ -4,36 +4,21 @@ import TextOverlap from "../../../components/TextOverlap";
 import ScrollAnimation from "../../../components/ScrollAnimation";
 import Member from "./Member";
 
-const projects = [
+const memmbers = [
   {
-    embed: "WVWxPIzEM3A",
-    image: "/images/01.jpg",
-    title: "Reputation",
+    position: "CEO/FOUNDER",
+    image: "/images/cesar.jpg",
+    name: "Angel Uriostegui",
   },
   {
-    embed: "WABOrIYhR94",
-    image: "/images/02.jpg",
-    title: "Copped Up",
+    position: "DESIGNER",
+    image: "/images/pablo.jpg",
+    name: "Cesar Uriostegui",
   },
   {
-    embed: "JXxAnZaZrG0",
-    image: "/images/03.jpg",
-    title: "Wrapped Around Your Finger",
-  },
-  {
-    embed: "_a0T5qwxANg",
-    image: "/images/04.jpg",
-    title: "I Like You",
-  },
-  {
-    embed: "o3vqfdvatsQ",
-    image: "/images/05.jpg",
-    title: "I Cannot Be",
-  },
-  {
-    embed: "HdtJtIQhzbQ",
-    image: "/images/06.jpg",
-    title: "Insane",
+    position: "DEVELOPER",
+    image: "/images/angel.jpg",
+    name: "Pablo Alboran",
   },
 ];
 
@@ -47,7 +32,7 @@ const Team = () => {
         </div>
 
         <div className={styles.wrapper}>
-          {projects.map((item, index) => (
+          {memmbers.map((item, index) => (
             <ScrollAnimation>
               <Member key={index} {...item} />
             </ScrollAnimation>
