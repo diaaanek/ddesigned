@@ -5,7 +5,7 @@ const Item = (props) => {
   return (
     <div className={styles.container}>
       <div className={styles.box}>
-        <span className={cn("body")} style={{ color: props.color }}>
+        <span className={cn("body-bold")} style={{ color: props.color }}>
           {props.number}
         </span>
         <h4 className={cn("body-2-bold")}>{props.title}</h4>
