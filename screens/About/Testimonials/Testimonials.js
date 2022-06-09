@@ -1,6 +1,7 @@
 import cn from "classnames";
 import Testimonial from "./Testimonial";
 import styles from "./testimonials.module.css";
+import ScrollAnimation from "../../../components/ScrollAnimation";
 
 const Testimonials = () => {
   return (
@@ -19,8 +20,9 @@ const Testimonials = () => {
             consequat venenatis est. Praesent commodo consequat pharetra.
           </p>
         </div>
-
-        <Testimonial />
+        <ScrollAnimation>
+          <Testimonial />
+        </ScrollAnimation>
       </div>
     </div>
   );
