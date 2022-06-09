@@ -6,3 +6,10 @@
   display: grid;
   grid-gap: 24px;
 }
+
+@media (max-width: 768px) {
+  .content {
+    justify-content: center;
+    text-align: center;
+  }
+}
