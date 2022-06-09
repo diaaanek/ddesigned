@@ -41,7 +41,7 @@ const Hero = () => {
     >
       <div className={cn("container", styles.container)}>
         <div className={styles.content}>
-          <Breadcrumb name="ABOUT US" />
+          <Breadcrumb name="ABOUT" />
           <motion.h1 variants={item} className={cn("hero", styles.title)}>
             About us
           </motion.h1>
