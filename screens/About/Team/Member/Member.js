@@ -14,12 +14,12 @@ const Member = (props) => {
         <span className={cn("hairline-small", styles.position)}>
           {props.position}
         </span>
-        <div className={styles.socials}>
+        {/* <div className={styles.socials}>
           <Icon name="twitter" />
           <Icon name="twitter" />
           <Icon name="twitter" />
           <Icon name="twitter" />
-        </div>
+        </div> */}
       </div>
     </div>
   );
