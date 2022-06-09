@@ -1,6 +1,6 @@
 import cn from "classnames";
 import Layout from "../components/Layout";
-import { Hero, Testimonials } from "../screens/About";
+import { Hero, Team, Testimonials } from "../screens/About";
 import CTA from "../components/CTA";
 
 const About = () => {
@@ -8,6 +8,7 @@ const About = () => {
     <Layout>
       <Hero />
       <Testimonials />
+      <Team />
       <CTA
         number="02"
         background="#92A5EF"

@@ -1,0 +1,8 @@
+.hairline {
+  color: var(--p1);
+}
+
+.content {
+  display: grid;
+  grid-gap: 24px;
+}
