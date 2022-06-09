@@ -48,6 +48,12 @@
   margin-bottom: 32px;
 }
 
+.items_wrapper {
+  display: grid;
+  grid-gap: 24px;
+  margin-bottom: 32px;
+}
+
 @media (max-width: 768px) {
   .wrapper {
     grid-template-columns: repeat(1, 1fr);
@@ -55,5 +61,9 @@
 
   .image_container {
     height: 520px;
+  }
+
+  .button {
+    width: 100%;
   }
 }

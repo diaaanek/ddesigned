@@ -5,6 +5,31 @@ import { motion } from "framer-motion";
 import { variants, item } from "../../../variants/animation";
 import Service from "../../../components/Service";
 import ScrollAnimation from "../../../components/ScrollAnimation";
+import Item from "./Item";
+
+const items = [
+  {
+    color: "#b1e5fc",
+    number: "#1",
+    title: "Mission",
+    subtitle:
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+  },
+  {
+    color: "#ffbc99",
+    number: "#2",
+    title: "Goals",
+    subtitle:
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+  },
+  {
+    color: "#cabdff",
+    number: "#3",
+    title: "Why me?",
+    subtitle:
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+  },
+];
 
 const Hero = () => {
   return (
@@ -36,7 +61,12 @@ const Hero = () => {
             <h1 className={cn("h2", styles.bottom_content_title)}>
               Phasellus Risus Turpis, Pretium Sit Amet Magna
             </h1>
-            <button className={cn("button")}>Learn More</button>
+            <div className={styles.items_wrapper}>
+              {items.map((item, index) => (
+                <Item key={index} {...item} />
+              ))}
+            </div>
+            <button className={cn("button", styles.button)}>Learn More</button>
           </div>
         </div>
       </div>
