@@ -1,11 +1,12 @@
 import cn from "classnames";
 import Layout from "../components/Layout";
-import { Hero } from "../screens/About";
+import { Hero, Testimonials } from "../screens/About";
 
 const About = () => {
   return (
     <Layout>
       <Hero />
+      <Testimonials />
     </Layout>
   );
 };
