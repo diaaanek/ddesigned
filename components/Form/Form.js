@@ -28,6 +28,12 @@ const Form = () => {
         placeholder="Email Address"
       />
       <ValidationError prefix="Email" field="email" errors={state.errors} />
+      <select name="cars" id="cars" className={styles.select}>
+        <option value="volvo">$500 - $1000</option>
+        <option value="saab">$1000 - $2000</option>
+        <option value="mercedes">$3000 - $4000</option>
+        <option value="audi">$5000 - $10,000</option>
+      </select>
       <textarea
         className={cn("caption", styles.message)}
         id="message"
