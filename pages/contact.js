@@ -1,10 +1,11 @@
 import Layout from "../components/Layout";
-import { Hero } from "../screens/Contact";
+import { GetInTouch, Hero } from "../screens/Contact";
 
 const Contact = () => {
   return (
     <Layout>
       <Hero />
+      <GetInTouch />
     </Layout>
   );
 };
