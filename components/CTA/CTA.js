@@ -5,7 +5,7 @@ import styles from "./cta.module.css";
 
 const CTA = (props) => {
   return (
-    <div className={cn("section")}>
+    <div className={cn("section", styles.section)}>
       <div className={cn("container", styles.container)}>
         <div className={styles.box}>
           <div className={styles.content}>
