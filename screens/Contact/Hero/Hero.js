@@ -8,21 +8,21 @@ import Card from "../../../components/Card";
 
 const items = [
   {
-    icon: "paint-bucket",
+    icon: "navigation",
     title: "Physical Address",
     subtitle: "304 North Cardinal St.",
     text: "Dorchester Center, MA 02124",
     boolean: "true",
   },
   {
-    icon: "plugin",
+    icon: "mail-right",
     title: "Email Address",
     subtitle: "info@company.com",
     text: "contact@company.com",
     boolean: "true",
   },
   {
-    icon: "globe",
+    icon: "call",
     title: "Phone Numbers",
     subtitle: "1-555-123-4567",
     text: "1-800-123-4567",
