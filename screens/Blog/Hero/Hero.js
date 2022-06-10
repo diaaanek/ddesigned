@@ -3,7 +3,6 @@ import Breadcrumb from "../../../components/Breadcrumb";
 import styles from "./hero.module.css";
 import { motion } from "framer-motion";
 import { item, variants } from "../../../variants/animation";
-import News from "../../../components/News/News";
 import ScrollAnimation from "../../../components/ScrollAnimation";
 import Item from "../../../components/News/Item";
 
@@ -25,17 +24,17 @@ const news = [
   },
   {
     image: "/images/07.jpg",
-    text: "REPUTATION",
+    text: "WRAPPED AROUND YOUR FINGER",
     title: "Quisque Iddiam Velquam Elementum Pulvinar.",
   },
   {
     image: "/images/08.jpg",
-    text: "COPPED UP",
+    text: "I LIKE YOU",
     title: "Quisque Iddiam Velquam Elementum Pulvinar.",
   },
   {
     image: "/images/09.jpg",
-    text: "LEMON TREE",
+    text: "I CANNOT BE",
     title: "Quisque Iddiam Velquam Elementum Pulvinar.",
   },
 ];
