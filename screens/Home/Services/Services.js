@@ -2,9 +2,9 @@ import styles from "./services.module.css";
 import cn from "classnames";
 import TextOverlap from "../../../components/TextOverlap";
 import Tag from "../../../components/Tag";
-import Service from "../../../components/Service";
 import Fact from "./Fact";
 import ScrollAnimation from "../../../components/ScrollAnimation";
+import Card from "../../../components/Card";
 
 const services = [
   {
@@ -68,7 +68,7 @@ const Services = () => {
         <div className={styles.wrapper}>
           {services.map((item, index) => (
             <ScrollAnimation>
-              <Service key={index} {...item} />
+              <Card key={index} {...item} />
             </ScrollAnimation>
           ))}
         </div>

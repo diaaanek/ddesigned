@@ -3,7 +3,7 @@ import styles from "./hero.module.css";
 import Breadcrumb from "../../../components/Breadcrumb";
 import { motion } from "framer-motion";
 import { variants, item } from "../../../variants/animation";
-import Service from "../../../components/Service";
+import Card from "../../../components/Card";
 import ScrollAnimation from "../../../components/ScrollAnimation";
 
 const services = [
@@ -69,7 +69,7 @@ const Hero = () => {
         <div className={styles.wrapper}>
           {services.map((item, index) => (
             <ScrollAnimation>
-              <Service key={index} {...item} />
+              <Card key={index} {...item} />
             </ScrollAnimation>
           ))}
         </div>
