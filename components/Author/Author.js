@@ -4,7 +4,7 @@ import styles from "./author.module.css";
 
 const Author = () => {
   return (
-    <a href="https://uriostegui.vercel.app" target="_blank" rel="noreferrer">
+    <a href="https://ui8.net" target="_blank" rel="noreferrer">
       <div className={styles.container}>
         <Icon
           className={styles.icon}
