@@ -7,6 +7,7 @@ import styles from "./id.module.css";
 import Breadcrumb from "../../components/Breadcrumb";
 import Link from "next/link";
 import Icon from "../../components/Icon";
+import ScrollAnimation from "../../components/ScrollAnimation";
 
 const projects = [
   {
@@ -72,8 +73,9 @@ const New = ({ newData, allNewsData }) => {
                 {newData.intro}
               </p>
             </div>
-
-            <h1 className={cn("h2", styles.title)}>{newData.title}</h1>
+            <ScrollAnimation>
+              <h1 className={cn("h2", styles.title)}>{newData.title}</h1>
+            </ScrollAnimation>
             <div className={styles.breadcrumb}>
               <Link href="/">
                 <a className={cn("hairline-small", styles.author)}>
