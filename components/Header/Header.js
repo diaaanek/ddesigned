@@ -96,10 +96,9 @@ const Header = () => {
             </button>
           </div>
         </OutsideClickHandler>
-
-        <button className={cn("button-small", styles.link)}>
-          {"Let's talk"}
-        </button>
+        <Link href="/contact">
+          <a className={cn("button-small", styles.link)}>{"Let's talk"}</a>
+        </Link>
 
         <button
           className={cn("button-svg", styles.open_button)}
