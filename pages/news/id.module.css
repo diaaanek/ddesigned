@@ -131,4 +131,8 @@
   .container {
     grid-template-columns: 1fr;
   }
+
+  .image_container {
+    height: 380px;
+  }
 }
