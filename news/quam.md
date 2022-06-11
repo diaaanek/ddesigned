@@ -2,7 +2,7 @@
 image: "/images/06.jpg"
 title: "Quam Vulputate Dignissim Suspendisse Intellus"
 intro: "Quan"
-tag: "WRAPPED AROUND"
+tag: "WRAPPED"
 date: "2022-06-18"
 ---
 
