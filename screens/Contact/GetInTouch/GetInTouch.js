@@ -1,6 +1,7 @@
 import cn from "classnames";
 import Form from "../../../components/Form";
 import styles from "./getintouch.module.css";
+import ScrollAnimation from "../../../components/ScrollAnimation";
 
 const GetInTouch = () => {
   return (
@@ -21,7 +22,9 @@ const GetInTouch = () => {
             Donec et enim vitae tellus auctor menean leo diamfeugiat nulla sed.
             consequat venenatis est. Praesent commodo consequat pharetra.
           </p>
-          <Form />
+          <ScrollAnimation>
+            <Form />
+          </ScrollAnimation>
         </div>
       </div>
     </div>
