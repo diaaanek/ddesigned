@@ -2,6 +2,7 @@
 image: '/images/02.jpg'
 title: 'Vestibulum Commodo Sapien Nonelit Vitae.
 '
+intro: "Vestibulum"
 tag: 'COPPED UP'
 date: '2022-06-13'
 ---
