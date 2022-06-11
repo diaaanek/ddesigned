@@ -52,3 +52,9 @@
 .breadcrumb_title {
   text-transform: uppercase;
 }
+
+@media (max-width: 768px) {
+  .container {
+    grid-template-columns: 1fr;
+  }
+}
