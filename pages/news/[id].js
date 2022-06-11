@@ -131,8 +131,8 @@ const New = ({ newData, allNewsData }) => {
             <h1 className={cn("body-bold")}>Recent News</h1>
             <div className={styles.news_grid}>
               {allNewsData.map(({ id, image, tag, title }) => (
-                <ScrollAnimation>
-                  <Link href={`/news/${id}`} key={id}>
+                <ScrollAnimation key={id}>
+                  <Link href={`/news/${id}`}>
                     <a>
                       <div className={styles.news_item}>
                         <div className={styles.news_image_container}>
