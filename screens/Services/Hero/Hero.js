@@ -48,6 +48,7 @@ const services = [
 const Hero = () => {
   return (
     <motion.div
+      id="hero"
       initial="hidden"
       animate="show"
       variants={variants}

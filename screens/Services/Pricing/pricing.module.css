@@ -34,6 +34,10 @@
   margin-bottom: 8px;
 }
 
+.button {
+  cursor: pointer;
+}
+
 @media (max-width: 768px) {
   .upper_content {
     flex-direction: column;
