@@ -1,5 +1,5 @@
 import Layout from "../../components/Layout";
-import { getAllNewsIds, getNewData } from "../../lib/news";
+import { getAllNewsIds, getNewData, getSortedNewsData } from "../../lib/news";
 import cn from "classnames";
 import Head from "next/head";
 import Date from "../../components/Date";
@@ -38,15 +38,17 @@ export async function getStaticPaths() {
 
 export async function getStaticProps({ params }) {
   const newData = await getNewData(params.id);
+  const allNewsData = getSortedNewsData();
 
   return {
     props: {
       newData,
+      allNewsData,
     },
   };
 }
 
-const New = ({ newData }) => {
+const New = ({ newData, allNewsData }) => {
   return (
     <Layout>
       <Head>
@@ -121,15 +123,17 @@ const New = ({ newData }) => {
             </div>
             <h1 className={cn("body-bold")}>Recent News</h1>
             <div className={styles.news_grid}>
-              <div className={styles.news_item}>
-                <div className={styles.news_image_container}>
-                  <img src={newData.image} />
+              {allNewsData.map(({ id, image, tag, title }) => (
+                <div className={styles.news_item}>
+                  <div className={styles.news_image_container}>
+                    <img src={newData.image} />
+                  </div>
+                  <div className={styles.news_content}>
+                    <h4 className={cn("body-2-bold")}>{newData.title}</h4>
+                    <p className={cn("caption")}>{newData.tag}</p>
+                  </div>
                 </div>
-                <div className={styles.news_content}>
-                  <h4 className={cn("body-2-bold")}>{newData.title}</h4>
-                  <p className={cn("caption")}>{newData.tag}</p>
-                </div>
-              </div>
+              ))}
             </div>
           </div>
         </div>
