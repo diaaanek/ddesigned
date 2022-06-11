@@ -6,6 +6,7 @@ import { variants, item } from "../../../variants/animation";
 import Service from "../../../components/Service";
 import ScrollAnimation from "../../../components/ScrollAnimation";
 import Item from "./Item";
+import { Link as AnchorLink } from "react-scroll";
 
 const items = [
   {
@@ -69,9 +70,11 @@ const Hero = () => {
               ))}
             </div>
             <ScrollAnimation>
-              <button className={cn("button", styles.button)}>
-                Learn More
-              </button>
+              <AnchorLink to="learnmore" smooth={true}>
+                <button className={cn("button", styles.button)}>
+                  Learn More
+                </button>
+              </AnchorLink>
             </ScrollAnimation>
           </div>
         </div>

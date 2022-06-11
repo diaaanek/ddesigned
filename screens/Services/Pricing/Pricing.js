@@ -5,7 +5,6 @@ import Tag from "../../../components/Tag";
 import Item from "./Item";
 import Icon from "../../../components/Icon";
 import ScrollAnimation from "../../../components/ScrollAnimation";
-import Link from "next/link";
 import { Link as AnchorLink } from "react-scroll";
 
 const options = [
@@ -94,7 +93,9 @@ const Pricing = () => {
           </div>
 
           <AnchorLink to="hero" smooth={true}>
-            <a className={cn("button-small", styles.button)}>View Services</a>
+            <button className={cn("button-small", styles.button)}>
+              View Services
+            </button>
           </AnchorLink>
         </div>
         <div className={styles.wrapper}>
