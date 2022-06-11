@@ -5,6 +5,7 @@ import { motion } from "framer-motion";
 import { variants, item } from "../../../variants/animation";
 import Image from "next/image";
 import Link from "next/link";
+import { Link as AnchorLink } from "react-scroll";
 
 const stats = [
   {
@@ -49,13 +50,14 @@ const Hero = () => {
                 </motion.button>
               </a>
             </Link>
-
-            <motion.button
-              variants={item}
-              className={cn("button button-stroke")}
-            >
-              Projects
-            </motion.button>
+            <AnchorLink to="projects" offset={-128} smooth={true}>
+              <motion.button
+                variants={item}
+                className={cn("button button-stroke", styles.button)}
+              >
+                Projects
+              </motion.button>
+            </AnchorLink>
           </div>
 
           <div className={styles.stats_wrapper}>

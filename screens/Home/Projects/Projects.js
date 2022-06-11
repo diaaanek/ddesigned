@@ -40,7 +40,7 @@ const projects = [
 
 const Projects = () => {
   return (
-    <div className={cn("section section-pb")}>
+    <div id="projects" className={cn("section section-pb")}>
       <div className={cn("container", styles.container)}>
         <div className={styles.upper_content}>
           <div className={styles.content}>
