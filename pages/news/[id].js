@@ -124,9 +124,9 @@ const New = ({ newData, allNewsData }) => {
             <h1 className={cn("body-bold")}>Recent News</h1>
             <div className={styles.news_grid}>
               {allNewsData.map(({ id, image, tag, title }) => (
-                <Link href={`/news/${id}`}>
+                <Link href={`/news/${id}`} key={id}>
                   <a>
-                    <div className={styles.news_item} key={id}>
+                    <div className={styles.news_item}>
                       <div className={styles.news_image_container}>
                         <img src={image} />
                       </div>
