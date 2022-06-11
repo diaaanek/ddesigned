@@ -8,6 +8,25 @@ import Breadcrumb from "../../components/Breadcrumb";
 import Link from "next/link";
 import Icon from "../../components/Icon";
 
+const projects = [
+  {
+    link: "",
+    image: "/images/09.jpg",
+  },
+  {
+    link: "",
+    image: "/images/08.jpg",
+  },
+  {
+    link: "",
+    image: "/images/07.jpg",
+  },
+  {
+    link: "",
+    image: "/images/06.jpg",
+  },
+];
+
 export async function getStaticPaths() {
   const paths = getAllNewsIds();
 
@@ -91,8 +110,15 @@ const New = ({ newData }) => {
             />
           </div>
 
-          <div>
-            <h1>Title</h1>
+          <div className={styles.side_content}>
+            <h1 className={cn("body-bold")}>Recent Projects</h1>
+            <div className={styles.grid}>
+              {projects.map((item, index) => (
+                <div className={styles.grid_image_container} key={index}>
+                  <img className={styles.grid_image} src={item.image} />
+                </div>
+              ))}
+            </div>
           </div>
         </div>
       </div>
