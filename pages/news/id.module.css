@@ -32,6 +32,7 @@
 
 .title {
   margin-top: 24px;
+  margin-bottom: 24px;
 }
 
 .breadcrumb {
@@ -52,6 +53,19 @@
 
 .breadcrumb_title {
   text-transform: uppercase;
+}
+
+.author {
+  font-weight: bold;
+}
+
+.author svg {
+  margin-right: 6px;
+}
+
+.contentHtml {
+  display: grid;
+  grid-gap: 24px;
 }
 
 @media (max-width: 768px) {

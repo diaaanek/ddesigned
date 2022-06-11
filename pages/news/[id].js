@@ -53,11 +53,42 @@ const New = ({ newData }) => {
             </div>
 
             <h1 className={cn("h2", styles.title)}>{newData.title}</h1>
+            <div className={styles.breadcrumb}>
+              <Link href="/">
+                <a className={cn("hairline-small", styles.author)}>
+                  <svg
+                    width="24"
+                    height="24"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <rect width="24" height="24" rx="12" fill="#23262F" />
+                    <rect
+                      x="8"
+                      y="8"
+                      width="8"
+                      height="8"
+                      rx="4"
+                      fill="#FCFCFD"
+                    />
+                  </svg>
+                  ANGEL URIOSTEGUI
+                </a>
+              </Link>
+              /
+              <Date dateString={newData.date} />/
+              <p className={cn("hairline-small", styles.author)}>
+                {newData.tag}
+              </p>
+            </div>
             <div className={styles.image_container}>
               <img className={styles.image} src={newData.image} />
             </div>
-            <Date dateString={newData.date} />
-            <div dangerouslySetInnerHTML={{ __html: newData.contentHtml }} />
+            <div
+              className={cn("caption", styles.contentHtml)}
+              dangerouslySetInnerHTML={{ __html: newData.contentHtml }}
+            />
           </div>
 
           <div>
