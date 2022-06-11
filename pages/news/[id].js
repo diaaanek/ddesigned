@@ -119,6 +119,7 @@ const New = ({ newData }) => {
                 </div>
               ))}
             </div>
+            <h1 className={cn("body-bold")}>Recent News</h1>
           </div>
         </div>
       </div>
