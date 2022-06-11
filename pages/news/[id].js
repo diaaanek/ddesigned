@@ -73,7 +73,7 @@ const New = ({ newData }) => {
                       fill="#FCFCFD"
                     />
                   </svg>
-                  ANGEL URIOSTEGUI
+                  URIOSTEGUI
                 </a>
               </Link>
               /
