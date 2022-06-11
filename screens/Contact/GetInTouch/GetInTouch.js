@@ -22,9 +22,7 @@ const GetInTouch = () => {
             Donec et enim vitae tellus auctor menean leo diamfeugiat nulla sed.
             consequat venenatis est. Praesent commodo consequat pharetra.
           </p>
-          <ScrollAnimation>
-            <Form />
-          </ScrollAnimation>
+          <Form />
         </div>
       </div>
     </div>
