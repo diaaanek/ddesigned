@@ -36,7 +36,7 @@
 .breadcrumb {
   display: grid;
   grid-template-columns: repeat(5, auto);
-  align-items: flex-center;
+  align-items: center;
   justify-content: flex-start;
   grid-gap: 8px;
 }
