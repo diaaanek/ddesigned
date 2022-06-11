@@ -120,6 +120,17 @@ const New = ({ newData }) => {
               ))}
             </div>
             <h1 className={cn("body-bold")}>Recent News</h1>
+            <div className={styles.news_grid}>
+              <div className={styles.news_item}>
+                <div className={styles.news_image_container}>
+                  <img src={newData.image} />
+                </div>
+                <div className={styles.news_content}>
+                  <h4 className={cn("body-2-bold")}>{newData.title}</h4>
+                  <p className={cn("caption")}>{newData.tag}</p>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </div>
