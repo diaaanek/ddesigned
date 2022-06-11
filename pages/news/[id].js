@@ -108,6 +108,7 @@ const New = ({ newData, allNewsData }) => {
             <div className={styles.image_container}>
               <img className={styles.image} src={newData.image} />
             </div>
+
             <div
               className={cn("caption", styles.contentHtml)}
               dangerouslySetInnerHTML={{ __html: newData.contentHtml }}

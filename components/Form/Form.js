@@ -15,6 +15,7 @@ const Form = () => {
     <form className={styles.container} onSubmit={handleSubmit}>
       <ScrollAnimation>
         <input
+          required
           id="name"
           type="name"
           name="name"
