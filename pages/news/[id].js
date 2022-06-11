@@ -48,7 +48,7 @@ const New = ({ newData }) => {
               </p>
               <Icon name="arrow-right" />
               <p className={cn("hairline-small", styles.breadcrumb_title)}>
-                {newData.title}
+                {newData.intro}
               </p>
             </div>
 

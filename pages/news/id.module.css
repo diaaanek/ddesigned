@@ -58,8 +58,4 @@
   .container {
     grid-template-columns: 1fr;
   }
-
-  .breadcrumb {
-    grid-template-columns: repeat(4, auto);
-  }
 }
