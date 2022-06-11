@@ -9,7 +9,7 @@ export default function Date({ dateString }) {
       className={cn("hairline-small")}
       dateTime={dateString}
     >
-      {format(date, "LLLL d, yyyy")}
+      {format(date, "LLLL d")}
     </time>
   );
 }
