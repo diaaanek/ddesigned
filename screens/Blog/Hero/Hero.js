@@ -5,6 +5,7 @@ import { motion } from "framer-motion";
 import { item, variants } from "../../../variants/animation";
 import ScrollAnimation from "../../../components/ScrollAnimation";
 import Item from "../../../components/News/Item";
+import Link from "next/link";
 
 const news = [
   {
@@ -39,7 +40,7 @@ const news = [
   },
 ];
 
-const Hero = () => {
+const Hero = ({ allNewsData }) => {
   return (
     <motion.div
       initial="hidden"
@@ -56,9 +57,13 @@ const Hero = () => {
         </div>
 
         <div className={styles.wrapper}>
-          {news.map((item, index) => (
-            <ScrollAnimation key={index}>
-              <Item {...item} />
+          {allNewsData.map(({ id, image, tag, title }) => (
+            <ScrollAnimation key={id}>
+              <Link href={`/news/${id}`}>
+                <a>
+                  <Item image={image} tag={tag} title={title} />
+                </a>
+              </Link>
             </ScrollAnimation>
           ))}
         </div>

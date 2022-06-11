@@ -23,7 +23,7 @@ const News = ({ allNewsData, number }) => {
         </div>
 
         <div className={styles.wrapper}>
-          {allNewsData.map(({ id, image, tag, title }) => (
+          {allNewsData.slice(0, 3).map(({ id, image, tag, title }) => (
             <ScrollAnimation key={id}>
               <Link href={`/news/${id}`}>
                 <a>

@@ -10,19 +10,19 @@ import Icon from "../../components/Icon";
 
 const projects = [
   {
-    link: "",
+    link: "/",
     image: "/images/09.jpg",
   },
   {
-    link: "",
+    link: "/",
     image: "/images/08.jpg",
   },
   {
-    link: "",
+    link: "/",
     image: "/images/07.jpg",
   },
   {
-    link: "",
+    link: "/",
     image: "/images/06.jpg",
   },
 ];
@@ -116,9 +116,13 @@ const New = ({ newData, allNewsData }) => {
             <h1 className={cn("body-bold")}>Recent Projects</h1>
             <div className={styles.grid}>
               {projects.map((item, index) => (
-                <div className={styles.grid_image_container} key={index}>
-                  <img className={styles.grid_image} src={item.image} />
-                </div>
+                <Link href={item.link} key={index}>
+                  <a>
+                    <div className={styles.grid_image_container}>
+                      <img className={styles.grid_image} src={item.image} />
+                    </div>
+                  </a>
+                </Link>
               ))}
             </div>
             <h1 className={cn("body-bold")}>Recent News</h1>
