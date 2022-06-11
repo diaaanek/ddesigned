@@ -60,5 +60,6 @@
 
   .breadcrumb {
     grid-template-columns: repeat(4, auto);
+    align-items: flex-start;
   }
 }

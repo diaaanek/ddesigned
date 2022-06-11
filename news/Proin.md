@@ -1,6 +1,7 @@
 ---
 image: "/images/03.jpg"
 title: "Proin Exipsum Facilisis Tincidunt Vulputate."
+intro: "Proin"
 tag: "LEMON TREE"
 date: "2022-06-11"
 ---

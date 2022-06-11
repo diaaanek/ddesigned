@@ -2,6 +2,7 @@
 image: '/images/01.jpg'
 title: 'Quisque Iddiam Velquam Elementum Pulvinar.
 '
+intro: "Quisque"
 tag: 'REPUTATION'
 date: '2022-06-12'
 ---
