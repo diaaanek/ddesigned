@@ -7,10 +7,11 @@ const GetInTouch = () => {
   return (
     <div className={cn("section")}>
       <div className={cn("container", styles.container)}>
-        <div className={styles.image_container}>
-          <img className={styles.image} src="/images/avatar.jpg" />
-        </div>
-
+        <ScrollAnimation>
+          <div className={styles.image_container}>
+            <img className={styles.image} src="/images/avatar.jpg" />
+          </div>
+        </ScrollAnimation>
         <div className={styles.content}>
           <span className={cn("hairline-small", styles.hairline)}>
             GET IN TOUCH
