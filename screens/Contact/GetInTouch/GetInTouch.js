@@ -11,7 +11,7 @@ const GetInTouch = () => {
         </div>
 
         <div className={styles.content}>
-          <span className={cn("hairline-small", styles.span)}>
+          <span className={cn("hairline-small", styles.hairline)}>
             GET IN TOUCH
           </span>
           <span className={cn("h2", styles.title)}>
