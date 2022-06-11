@@ -8,7 +8,7 @@ const Item = (props) => {
         <img className={styles.image} src={props.image} />
       </div>
       <div className={styles.content}>
-        <p className={cn("hairline-2", styles.text)}>{props.text}</p>
+        <p className={cn("hairline-2", styles.text)}>{props.tag}</p>
         <h4 className={cn("body-2-bold", styles.title)}>{props.title}</h4>
       </div>
     </div>

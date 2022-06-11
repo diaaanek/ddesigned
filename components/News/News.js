@@ -5,32 +5,15 @@ import Tag from "../Tag";
 import TextOverlap from "../TextOverlap";
 import Item from "./Item";
 import styles from "./news.module.css";
+import Link from "next/link";
 
-const news = [
-  {
-    image: "/images/03.jpg",
-    text: "REPUTATION",
-    title: "Quisque Iddiam Velquam Elementum Pulvinar.",
-  },
-  {
-    image: "/images/04.jpg",
-    text: "COPPED UP",
-    title: "Quisque Iddiam Velquam Elementum Pulvinar.",
-  },
-  {
-    image: "/images/05.jpg",
-    text: "LEMON TREE",
-    title: "Quisque Iddiam Velquam Elementum Pulvinar.",
-  },
-];
-
-const News = (props) => {
+const News = ({ allNewsData, number }) => {
   return (
     <div className={cn("section", styles.section)}>
       <div className={cn("container")}>
         <div className={styles.upper_content}>
           <div className={styles.content}>
-            <Tag number={props.number} background="#b5e4ca" />
+            <Tag number={number} background="#b5e4ca" />
             <TextOverlap title="News" text="News" />
           </div>
 
@@ -40,9 +23,13 @@ const News = (props) => {
         </div>
 
         <div className={styles.wrapper}>
-          {news.map((item, index) => (
-            <ScrollAnimation key={index}>
-              <Item {...item} />
+          {allNewsData.map(({ id, image, tag, title }) => (
+            <ScrollAnimation key={id}>
+              <Link href={`/news/${id}`}>
+                <a>
+                  <Item image={image} tag={tag} title={title} />
+                </a>
+              </Link>
             </ScrollAnimation>
           ))}
         </div>

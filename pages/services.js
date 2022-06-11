@@ -4,7 +4,19 @@ import Layout from "../components/Layout";
 import News from "../components/News";
 import { Hero, Pricing } from "../screens/Services";
 
-export default function Home() {
+import { getSortedNewsData } from "../lib/news";
+
+export async function getStaticProps() {
+  const allNewsData = getSortedNewsData();
+
+  return {
+    props: {
+      allNewsData,
+    },
+  };
+}
+
+export default function Services({ allNewsData }) {
   return (
     <Layout>
       <Hero />
@@ -15,7 +27,7 @@ export default function Home() {
         title="30% Discount"
         button="Learn More"
       />
-      <News number="03" />
+      <News allNewsData={allNewsData} number="03" />
     </Layout>
   );
 }

@@ -1,0 +1,54 @@
+.section {
+  padding-top: 200px;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: 1fr 0.4fr;
+  grid-gap: 48px;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.image_container {
+  width: 100%;
+  height: 420px;
+  border-radius: 8px;
+  margin-top: 60px;
+  margin-bottom: 60px;
+}
+
+.image {
+  width: 100%;
+  height: 100%;
+  border-radius: 8px;
+  object-fit: cover;
+}
+
+.title {
+  margin-top: 24px;
+}
+
+.breadcrumb {
+  display: grid;
+  grid-template-columns: repeat(6, auto);
+  align-items: center;
+  justify-content: center;
+  grid-gap: 8px;
+}
+
+.breadcrumb_text {
+  color: var(--p1);
+}
+
+.breadcrumb_tag {
+  color: var(--p1);
+}
+
+.breadcrumb_title {
+  text-transform: uppercase;
+}
