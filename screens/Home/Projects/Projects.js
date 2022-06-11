@@ -1,4 +1,5 @@
 import cn from "classnames";
+import Link from "next/link";
 import ScrollAnimation from "../../../components/ScrollAnimation";
 import Tag from "../../../components/Tag";
 import TextOverlap from "../../../components/TextOverlap";
@@ -47,10 +48,9 @@ const Projects = () => {
             <Tag number="02" background="#cabdff" />
             <TextOverlap title="Projects" text="Projects" />
           </div>
-
-          <button className={cn("button-small", styles.button)}>
-            View Projects
-          </button>
+          <Link href="/services">
+            <a className={cn("button-small", styles.button)}>View Pricing</a>
+          </Link>
         </div>
 
         <div className={styles.wrapper}>

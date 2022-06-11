@@ -1,4 +1,5 @@
 import cn from "classnames";
+import Link from "next/link";
 import ScrollAnimation from "../ScrollAnimation";
 import Tag from "../Tag";
 import styles from "./cta.module.css";
@@ -15,9 +16,9 @@ const CTA = (props) => {
               Donec et enim vitae tellus auctor menean leo diamfeugiat nulla
               sed. consequat venenatis est. Praesent commodo consequat pharetra.
             </p>
-            <button className={cn("button", styles.button)}>
-              {props.button}
-            </button>
+            <Link href="/contact">
+              <a className={cn("button", styles.button)}>{props.button}</a>
+            </Link>
           </div>
 
           <ScrollAnimation>

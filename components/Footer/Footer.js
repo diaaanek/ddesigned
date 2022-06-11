@@ -1,17 +1,22 @@
 import cn from "classnames";
+import Link from "next/link";
 import styles from "./footer.module.css";
 
 const sites = [
   {
+    link: "/",
     title: "Home",
   },
   {
+    link: "/about",
     title: "Portfolio",
   },
   {
+    link: "/about",
     title: "About Us",
   },
   {
+    link: "/blog",
     title: "Blog",
   },
 ];
@@ -73,12 +78,11 @@ const Footer = () => {
             <h4 className={cn("body-2-bold", styles.title)}>Site</h4>
             <div className={styles.links}>
               {sites.map((item, index) => (
-                <button
-                  key={index}
-                  className={cn("button-small", styles.button)}
-                >
-                  {item.title}
-                </button>
+                <Link href={item.link} key={index}>
+                  <a className={cn("button-small", styles.button)}>
+                    {item.title}
+                  </a>
+                </Link>
               ))}
             </div>
           </div>

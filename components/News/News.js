@@ -16,10 +16,9 @@ const News = ({ allNewsData, number }) => {
             <Tag number={number} background="#b5e4ca" />
             <TextOverlap title="News" text="News" />
           </div>
-
-          <button className={cn("button-small", styles.button)}>
-            View News
-          </button>
+          <Link href="/blog">
+            <a className={cn("button-small", styles.button)}>View News</a>
+          </Link>
         </div>
 
         <div className={styles.wrapper}>

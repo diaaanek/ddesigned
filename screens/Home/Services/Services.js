@@ -5,6 +5,7 @@ import Tag from "../../../components/Tag";
 import Fact from "./Fact";
 import ScrollAnimation from "../../../components/ScrollAnimation";
 import Card from "../../../components/Card";
+import Link from "next/link";
 
 const services = [
   {
@@ -59,10 +60,9 @@ const Services = () => {
             <Tag number="01" background="#ffbc99" />
             <TextOverlap title="Services" text="Services" />
           </div>
-
-          <button className={cn("button-small", styles.button)}>
-            View Services
-          </button>
+          <Link href="/services">
+            <a className={cn("button-small", styles.button)}>View Services</a>
+          </Link>
         </div>
 
         <div className={styles.wrapper}>
