@@ -59,6 +59,10 @@ const New = ({ newData }) => {
             <Date dateString={newData.date} />
             <div dangerouslySetInnerHTML={{ __html: newData.contentHtml }} />
           </div>
+
+          <div>
+            <h1>Title</h1>
+          </div>
         </div>
       </div>
     </Layout>
