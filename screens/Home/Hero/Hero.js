@@ -4,6 +4,7 @@ import Stats from "./Stats";
 import { motion } from "framer-motion";
 import { variants, item } from "../../../variants/animation";
 import Image from "next/image";
+import Link from "next/link";
 
 const stats = [
   {
@@ -38,9 +39,17 @@ const Hero = () => {
             frontend developer
           </motion.p>
           <div className={styles.wrapper}>
-            <motion.button variants={item} className={cn("button")}>
-              Hire Me
-            </motion.button>
+            <Link href="/contact">
+              <a>
+                <motion.button
+                  variants={item}
+                  className={cn("button", styles.button)}
+                >
+                  Hire Me
+                </motion.button>
+              </a>
+            </Link>
+
             <motion.button
               variants={item}
               className={cn("button button-stroke")}
