@@ -7,11 +7,11 @@ import Icon from "../Icon";
 import OutsideClickHandler from "react-outside-click-handler";
 
 const links = [
-  { name: "Home", href: "/" },
-  { name: "Services", href: "/services" },
-  { name: "About", href: "/about" },
-  { name: "Blog", href: "/blog" },
-  { name: "Contact", href: "/contact" },
+  // { name: "Home", href: "/" },
+  // { name: "Services", href: "/services" },
+  // { name: "About", href: "/about" },
+  // { name: "Blog", href: "/blog" },
+  // { name: "Contact", href: "/contact" },
 ];
 
 const white = "#fcfcfd";
@@ -52,7 +52,7 @@ const Header = () => {
       className={styles.section}
     >
       <div className={cn("container", styles.container)}>
-        <Link href="/">
+        <Link href='/'>
           <a
             className={cn(
               "body-bold",
@@ -63,7 +63,7 @@ const Header = () => {
                 router.pathname == "/" ? (navbar ? "#23262f" : "#fcfcfd") : "",
             }}
           >
-            Vedio
+            dianedesigned.
           </a>
         </Link>
 
@@ -88,23 +88,23 @@ const Header = () => {
               className={cn("button-svg", styles.close_button)}
               onClick={closeMenu}
             >
-              <Icon name="close" />
+              <Icon name='close' />
             </button>
 
             <button className={cn("button-small", styles.menu_link)}>
-              {"Let's talk"}
+              {"Let's talk "}
             </button>
           </div>
         </OutsideClickHandler>
-        <Link href="/contact">
-          <a className={cn("button-small", styles.link)}>{"Let's talk"}</a>
+        <Link href='/contact'>
+          <a className={cn("button-small", styles.link)}>{"Let's talk :) "}</a>
         </Link>
 
         <button
           className={cn("button-svg", styles.open_button)}
           onClick={openMenu}
         >
-          <Icon name="menu" />
+          <Icon name='menu' />
         </button>
       </div>
     </header>

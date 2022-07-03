@@ -10,10 +10,10 @@ const About = () => {
       <Testimonials />
       <Team />
       <CTA
-        number="02"
-        background="#92A5EF"
-        title="30% Discount"
-        button="Learn More"
+        number='02'
+        background='#92A5EF'
+        title='30% Discount'
+        button='Learn More'
       />
     </Layout>
   );

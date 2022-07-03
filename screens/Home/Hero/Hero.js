@@ -9,12 +9,12 @@ import { Link as AnchorLink } from "react-scroll";
 
 const stats = [
   {
-    title: "+84",
-    text: "Clients worldwide",
+    title: "+18",
+    text: "clients worldwide",
   },
   {
-    title: "120",
-    text: "Projects done",
+    title: "5",
+    text: "awards won",
   },
 ];
 
@@ -23,8 +23,8 @@ const Hero = () => {
     <div className={cn("section", styles.section)}>
       <div className={cn("container", styles.container)}>
         <motion.div
-          initial="hidden"
-          animate="show"
+          initial='hidden'
+          animate='show'
           variants={variants}
           className={styles.content}
         >
@@ -32,15 +32,15 @@ const Hero = () => {
             DESIGN + CODE
           </motion.span>
           <motion.h1 variants={item} className={cn("hero", styles.title)}>
-            {"I’m Angel Uriostegui"}
+            {"bringing ideas to life with design and code 🤓⚡️"}
           </motion.h1>
           <motion.p variants={item} className={cn("body", styles.subtitle)}>
-            Designing user interfaces for over{" "}
-            <span className={cn("body-bold", styles.text)}>2 years</span> as a
-            frontend developer
+            frontend dev/designer for mobile and saas apps with over{" "}
+            <span className={cn("body-bold", styles.text)}>7 years</span>{" "}
+            experience
           </motion.p>
           <div className={styles.wrapper}>
-            <Link href="/contact">
+            <Link href='/contact'>
               <a>
                 <motion.button
                   variants={item}
@@ -50,7 +50,7 @@ const Hero = () => {
                 </motion.button>
               </a>
             </Link>
-            <AnchorLink to="projects" offset={-128} smooth={true}>
+            <AnchorLink to='projects' offset={-128} smooth={true}>
               <motion.button
                 variants={item}
                 className={cn("button button-stroke", styles.button)}
@@ -72,14 +72,14 @@ const Hero = () => {
         <div className={styles.image_container}>
           <Image
             className={styles.image}
-            src="/images/avatar.jpg"
-            layout="fill"
-            placeholder="blur"
-            blurDataURL="/images/avatar.jpg"
+            src='/images/avatar.jpeg'
+            layout='fill'
+            placeholder='blur'
+            blurDataURL='/images/avatar.jpg'
           />
 
           <div className={styles.author}>
-            <p className={cn("caption", styles.name)}>Angel Uriostegui</p>
+            <p className={cn("caption", styles.name)}>diane</p>
           </div>
           <div className={styles.overlay} />
         </div>
