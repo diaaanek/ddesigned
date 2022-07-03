@@ -32,10 +32,12 @@ const Hero = () => {
             DESIGN + CODE
           </motion.span>
           <motion.h1 variants={item} className={cn("hero", styles.title)}>
-            {"bringing ideas to life with design and code 🤓⚡️"}
+            bringing{" "}
+            <span className={cn("span2", styles.span2)}>ideas to life</span>{" "}
+            with design, love, & lotsss of code
           </motion.h1>
           <motion.p variants={item} className={cn("body", styles.subtitle)}>
-            frontend dev/designer for mobile and saas apps with over{" "}
+            lead front-end dev/designer for mobile and saas apps with over{" "}
             <span className={cn("body-bold", styles.text)}>7 years</span>{" "}
             experience
           </motion.p>
@@ -46,7 +48,7 @@ const Hero = () => {
                   variants={item}
                   className={cn("button", styles.button)}
                 >
-                  Hire Me
+                  hire me
                 </motion.button>
               </a>
             </Link>
@@ -55,13 +57,14 @@ const Hero = () => {
                 variants={item}
                 className={cn("button button-stroke", styles.button)}
               >
-                Projects
+                some projects
               </motion.button>
             </AnchorLink> */}
           </div>
 
           <div className={styles.stats_wrapper}>
             {stats.map((item, index) => (
+              // eslint-disable-next-line react/jsx-key
               <motion.div variants={item}>
                 <Stats variants={item} key={index} {...item} />
               </motion.div>
@@ -70,20 +73,25 @@ const Hero = () => {
         </motion.div>
 
         <div className={styles.image_container}>
-          <Image
+          {/* <Image
             className={styles.image}
             src='/images/avatar.jpeg'
             layout='fill'
             placeholder='blur'
             blurDataURL='/images/avatar.jpeg'
-          />
+          /> */}
 
-          <div className={styles.author}>
+          {/* <div className={styles.author}>
             <p className={cn("caption", styles.name)}>diane</p>
-          </div>
+          </div> */}
           <div className={styles.overlay} />
         </div>
       </div>
+      <div className={cn("one", styles.one)}></div>
+      <div className={cn("two", styles.two)}></div>
+      <div className={cn("three", styles.three)}></div>
+      {/* <div className={cn("four", styles.four)}></div> */}
+      {/* <div className={cn("five", styles.five)}></div> */}
     </div>
   );
 };

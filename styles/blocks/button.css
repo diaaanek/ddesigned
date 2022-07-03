@@ -14,7 +14,7 @@
   justify-content: center;
   transition: all 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275);
   outline: none;
-  box-shadow: 0 10px 20px rgba(35, 38, 47, 0.2);
+  box-shadow: 0 5px 11px rgba(35, 38, 47, 0.2);
 }
 
 .button:hover {
@@ -40,6 +40,7 @@
   font-size: 14px;
   color: var(--p1);
   font-weight: bold;
+  font-family: "Basis Medium";
 }
 
 .active {

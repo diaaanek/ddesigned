@@ -2,6 +2,7 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
+  background-color: -n7;
 }
 
 .content {
@@ -13,7 +14,7 @@
 .wrapper {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  grid-gap: 32px;
+  grid-gap: 24px;
   margin-top: 60px;
 }
 

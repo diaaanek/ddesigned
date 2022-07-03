@@ -3,28 +3,28 @@
 .h2,
 .h3,
 .h4 {
-  font-weight: 800;
-  font-family: "DM Sans";
+  font-weight: 700;
+  font-family: "Basis Medium";
   color: var(--n2);
 }
 
 .hero {
   font-size: 92px;
   line-height: 1;
-  /* font-family: "Basis Medium"; */
-  letter-spacing: -0.05em;
+  font-family: "Basis Medium";
+  /* letter-spacing: -0.05em; */
 }
 
 .h1 {
   font-size: 64px;
   line-height: 1;
-  letter-spacing: -0.02em;
+  /* letter-spacing: -0.02em; */
 }
 
 .h2 {
   font-size: 48px;
   line-height: (56/48);
-  letter-spacing: -0.02em;
+  /* letter-spacing: -0.02em; */
 }
 
 .h3 {
@@ -36,14 +36,14 @@
 .h4 {
   font-size: 32px;
   line-height: (40/32);
-  letter-spacing: -0.01em;
+  /* letter-spacing: -0.01em; */
 }
 
 @media (max-width: 768px) {
   .hero {
     font-size: 64px;
     line-height: 1;
-    letter-spacing: -0.02em;
+    /* letter-spacing: -0.02em; */
   }
 }
 
@@ -51,24 +51,24 @@
   .hero {
     font-size: 48px;
     line-height: (56/48);
-    letter-spacing: -0.02em;
+    /* letter-spacing: -0.02em; */
   }
 
   .h1 {
     font-size: 48px;
     line-height: (56/48);
-    letter-spacing: -0.02em;
+    /* letter-spacing: -0.02em; */
   }
 
   .h2 {
     font-size: 40px;
     line-height: (48/40);
-    letter-spacing: -0.01em;
+    /* letter-spacing: -0.01em; */
   }
 
   .h3 {
     font-size: 32px;
     line-height: (40/32);
-    letter-spacing: -0.01em;
+    /* letter-spacing: -0.01em; */
   }
 }

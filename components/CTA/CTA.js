@@ -10,22 +10,22 @@ const CTA = (props) => {
       <div className={cn("container", styles.container)}>
         <div className={styles.box}>
           <div className={styles.content}>
-            <Tag number={props.number} background={props.background} />
-            <h4 className={cn("h2", styles.title)}>{props.title}</h4>
+            {/* <Tag number={props.number} background={props.background} /> */}
+            <h4 className={cn("h4", styles.title)}>{props.title}</h4>
             <p className={cn("caption", styles.subtitle)}>
               Donec et enim vitae tellus auctor menean leo diamfeugiat nulla
               sed. consequat venenatis est. Praesent commodo consequat pharetra.
             </p>
-            <Link href="/contact">
+            <Link href='/contact'>
               <a className={cn("button", styles.button)}>{props.button}</a>
             </Link>
           </div>
 
-          <ScrollAnimation>
+          {/* <ScrollAnimation>
             <div className={styles.image_container}>
-              <img className={styles.image} src="/images/hamid.png" />
+              <img className={styles.image} src='/images/avatar.jpeg' />
             </div>
-          </ScrollAnimation>
+          </ScrollAnimation> */}
         </div>
       </div>
     </div>

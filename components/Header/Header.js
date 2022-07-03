@@ -59,8 +59,9 @@ const Header = () => {
               navbar ? styles.active_logo : styles.logo
             )}
             style={{
-              color:
-                router.pathname == "/" ? (navbar ? "#23262f" : "#fcfcfd") : "",
+              color: "#23262f",
+              fontSize: "16px",
+              letterSpacing: 0.5,
             }}
           >
             dianedesigned.
@@ -92,12 +93,12 @@ const Header = () => {
             </button>
 
             <button className={cn("button-small", styles.menu_link)}>
-              {"Let's talk "}
+              {"let's talk "}
             </button>
           </div>
         </OutsideClickHandler>
         <Link href='/contact'>
-          <a className={cn("button-small", styles.link)}>{"Let's talk :)"}</a>
+          <a className={cn("button-small", styles.link)}>{"let's talk :)"}</a>
         </Link>
 
         <button

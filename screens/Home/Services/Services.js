@@ -10,21 +10,21 @@ import Link from "next/link";
 const services = [
   {
     icon: "paint-bucket",
-    title: "UI-X Design",
+    title: "product design",
     subtitle:
-      "Aenean non accumsan ante. Duis et risus accumsan sem tempus porta nec sit amet estsed ut euismod.",
+      "we design your product conception from the ground up. full ux/ui for mobile, web, b2b app or newly seeded startup. starting at $2,499/m",
   },
   {
     icon: "plugin",
-    title: "App Development",
+    title: "app development",
     subtitle:
-      "Aenean non accumsan ante. Duis et risus accumsan sem tempus porta nec sit amet estsed ut euismod.",
+      "from rapid prototyping, designing, visual concepts to a fully functional live mobile product. uses swift ui, flutter, or react native. schedule a call.",
   },
   {
     icon: "globe",
-    title: "Web Development",
+    title: "web development",
     subtitle:
-      "Aenean non accumsan ante. Duis et risus accumsan sem tempus porta nec sit amet estsed ut euismod.",
+      "we build the ui of your web app using modern and module front-end frameworks, react, typescript, nextjs. startting $2,999/m",
   },
 ];
 
@@ -58,7 +58,7 @@ const Services = () => {
         <div className={styles.upper_content}>
           <div className={styles.content}>
             {/* <Tag number="01" background="#ffbc99" /> */}
-            <TextOverlap title='Services' text='Services' />
+            <TextOverlap title='services' text='services' />
           </div>
           {/* <Link href="/services">
             <a className={cn("button-small", styles.button)}>View Services</a>

@@ -21,14 +21,14 @@ export default function Home({ allNewsData }) {
       <Hero />
       <Services />
       <Projects />
-      {/* <Clients />
-      <News number="04" allNewsData={allNewsData} />
+      <Clients />
+      {/* <News number='04' allNewsData={allNewsData} /> */}
       <CTA
-        number="05"
-        background="#ffd88d"
-        title="Let’s talk about your project"
-        button="Contact"
-      /> */}
+        number='05'
+        background='#ffd88d'
+        title='let’s talk about your dream project'
+        button='contact'
+      />
     </Layout>
   );
 }

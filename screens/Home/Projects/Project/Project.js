@@ -19,9 +19,9 @@ const Project = ({ embed, image, title }) => {
       <div className={styles.image_container}>
         <img className={styles.image} src={image} />
         <div className={styles.overlay}>
-          <button onClick={openModal} className={styles.play}>
+          {/* <button onClick={openModal} className={styles.play}>
             <Icon name='play' />
-          </button>
+          </button> */}
         </div>
       </div>
       <p className={cn("body-2-bold", styles.title)}>{title}</p>

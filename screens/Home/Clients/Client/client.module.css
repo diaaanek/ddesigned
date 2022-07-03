@@ -2,9 +2,9 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  padding: 50px;
+  padding: 25px;
   background-color: var(--n8);
-  border-radius: 8px;
+  border-radius: 12px;
 }
 
 .container svg {
