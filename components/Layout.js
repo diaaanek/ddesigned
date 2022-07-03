@@ -8,6 +8,29 @@ const Layout = ({ children }) => {
   return (
     <>
       <Head>
+        <link
+          rel='preload'
+          href='/fonts/AirbnbCereal-Book.ttf'
+          as='font'
+          type='font/ttf'
+          crossOrigin=''
+        />
+        <link
+          rel='preload'
+          href='/fonts/AirbnbCereal-Medium.ttf'
+          as='font'
+          type='font/ttf'
+          crossOrigin=''
+        />
+
+        <link
+          rel='preload'
+          href='/fonts/AirbnbCereal-Bold.ttf'
+          as='font'
+          type='font/ttf'
+          crossOrigin=''
+        />
+
         <title>diane designed</title>
         <meta
           name='description'
