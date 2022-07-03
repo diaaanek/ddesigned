@@ -1,10 +1,15 @@
 /* common styles */
-@import './common.css';
-@import './helpers.css';
-@import './reset.css';
+@import "./common.css";
+@import "./helpers.css";
+@import "./reset.css";
 
 /* global styles */
-@import './blocks/section';
-@import './blocks/title';
-@import './blocks/container';
-@import './blocks/button';
+@import "./blocks/section";
+@import "./blocks/title";
+@import "./blocks/container";
+@import "./blocks/button";
+
+html {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}

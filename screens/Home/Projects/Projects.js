@@ -9,48 +9,54 @@ import styles from "./projects.module.css";
 const projects = [
   {
     embed: "WVWxPIzEM3A",
-    image: "/images/01.jpg",
-    title: "Reputation",
+    image:
+      "https://res.cloudinary.com/dxrvvjvpf/image/upload/v1646937386/Frame_470.png",
+    title: "vetcove",
   },
   {
     embed: "WABOrIYhR94",
-    image: "/images/02.jpg",
-    title: "Copped Up",
+    image:
+      "https://res.cloudinary.com/dxrvvjvpf/image/upload/v1646937385/Rectangle_521.png",
+    title: "branding dev",
   },
   {
     embed: "JXxAnZaZrG0",
-    image: "/images/03.jpg",
-    title: "Wrapped Around Your Finger",
+    image:
+      "https://res.cloudinary.com/dxrvvjvpf/image/upload/v1646937382/repool_mock.png",
+    title: "yc startup ui design",
   },
   {
     embed: "_a0T5qwxANg",
-    image: "/images/04.jpg",
-    title: "I Like You",
+    image:
+      "https://res.cloudinary.com/dxrvvjvpf/image/upload/v1587529327/ronaframe.png",
+    title: "flutter ui design/dev",
   },
   {
     embed: "o3vqfdvatsQ",
-    image: "/images/05.jpg",
-    title: "I Cannot Be",
+    image:
+      "https://res.cloudinary.com/dxrvvjvpf/image/upload/v1646938385/mock.png",
+    title: "swift ui app",
   },
   {
     embed: "HdtJtIQhzbQ",
-    image: "/images/06.jpg",
-    title: "Insane",
+    image:
+      "https://cdn.dribbble.com/users/3371648/screenshots/9949740/media/9a2ae127b6b79f59e97402b96e3de81c.png?compress=1&resize=1600x1200&vertical=top",
+    title: "b2b saas",
   },
 ];
 
 const Projects = () => {
   return (
-    <div id="projects" className={cn("section section-pb")}>
+    <div id='projects' className={cn("section section-pb")}>
       <div className={cn("container", styles.container)}>
         <div className={styles.upper_content}>
           <div className={styles.content}>
-            <Tag number="02" background="#cabdff" />
-            <TextOverlap title="Projects" text="Projects" />
+            {/* <Tag number='02' background='#cabdff' /> */}
+            <TextOverlap title='Projects' text='Projects' />
           </div>
-          <Link href="/services">
+          {/* <Link href='/services'>
             <a className={cn("button-small", styles.button)}>View Pricing</a>
-          </Link>
+          </Link> */}
         </div>
 
         <div className={styles.wrapper}>

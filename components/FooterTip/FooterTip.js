@@ -5,17 +5,19 @@ const FooterTip = () => {
   return (
     <div className={cn("container", styles.container)}>
       <p className={cn("caption", styles.title)}>
-        Copyright © 2022 - React Theme by{" "}
+        copyright © 2022 - built with ♥️ & ☕{" "}
         <a
-          href="https://uriostegui.vercel.app"
-          target="_blank"
-          rel="noreferrer"
+          href='https://dianedesigned.com'
+          target='_blank'
+          rel='noreferrer'
           className={cn("caption-bold", styles.author)}
         >
-          Angel Uriostegui
+          diane korongy
         </a>
       </p>
-      <p className={cn("caption")}>Terms & Conditions | Privacy Policy </p>
+      <p className={cn("caption")}>
+        terms & conditions | privacy policy | pricing{" "}
+      </p>
     </div>
   );
 };

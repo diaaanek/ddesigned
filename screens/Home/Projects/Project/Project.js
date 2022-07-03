@@ -20,7 +20,7 @@ const Project = ({ embed, image, title }) => {
         <img className={styles.image} src={image} />
         <div className={styles.overlay}>
           <button onClick={openModal} className={styles.play}>
-            <Icon name="play" />
+            <Icon name='play' />
           </button>
         </div>
       </div>
@@ -29,11 +29,11 @@ const Project = ({ embed, image, title }) => {
       {modal ? (
         <section className={cn("background")}>
           <div className={cn("align")}>
-            <VideoModal
+            {/* <VideoModal
               embed={`https://www.youtube.com/embed/${embed}`}
               closeModal={closeModal}
               setModal={setModal}
-            />
+            /> */}
           </div>
         </section>
       ) : null}

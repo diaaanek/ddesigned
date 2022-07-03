@@ -57,12 +57,12 @@ const Services = () => {
       <div className={cn("container", styles.container)}>
         <div className={styles.upper_content}>
           <div className={styles.content}>
-            <Tag number="01" background="#ffbc99" />
-            <TextOverlap title="Services" text="Services" />
+            {/* <Tag number="01" background="#ffbc99" /> */}
+            <TextOverlap title='Services' text='Services' />
           </div>
-          <Link href="/services">
+          {/* <Link href="/services">
             <a className={cn("button-small", styles.button)}>View Services</a>
-          </Link>
+          </Link> */}
         </div>
 
         <div className={styles.wrapper}>
@@ -72,13 +72,13 @@ const Services = () => {
             </ScrollAnimation>
           ))}
         </div>
-        <div className={styles.facts_wrapper}>
+        {/* <div className={styles.facts_wrapper}>
           {facts.map((item, index) => (
             <ScrollAnimation key={index}>
               <Fact {...item} />
             </ScrollAnimation>
           ))}
-        </div>
+        </div> */}
       </div>
     </div>
   );
