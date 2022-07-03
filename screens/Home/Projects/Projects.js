@@ -21,7 +21,7 @@ const projects = [
   },
   {
     embed: "JXxAnZaZrG0",
-    image: "/images/09.png",
+    image: "/images/rebound.png",
     // title: "yc startup ui design",
   },
   {
