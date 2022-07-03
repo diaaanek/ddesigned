@@ -18,7 +18,7 @@
 
 body {
   min-width: 375px;
-  font-family: "Basis", sans-serif;
+  font-family: "DM Sans", sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   background-color: var(--n8);
