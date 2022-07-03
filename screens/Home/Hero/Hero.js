@@ -75,7 +75,7 @@ const Hero = () => {
             src='/images/avatar.jpeg'
             layout='fill'
             placeholder='blur'
-            blurDataURL='/images/avatar.jpg'
+            blurDataURL='/images/avatar.jpeg'
           />
 
           <div className={styles.author}>

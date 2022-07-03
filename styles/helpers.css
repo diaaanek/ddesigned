@@ -28,7 +28,8 @@
 .body {
   font-size: 24px;
   line-height: (32/24);
-  letter-spacing: -0.01em;
+  font-family: "Basis", sans-serif;
+  /* letter-spacing: -0.01em; */
   color: var(--n4);
   font-weight: 400;
 }
@@ -38,6 +39,7 @@
   line-height: (32/24);
   /* letter-spacing: -0.01em; */
   font-weight: 600;
+  font-family: "Basis Medium", sans-serif;
   color: var(--n2);
 }
 
@@ -46,12 +48,14 @@
   line-height: (24/16);
   color: var(--n4);
   font-weight: 400;
+  font-family: "Basis", sans-serif;
 }
 
 .body-2-bold {
   font-size: 16px;
   line-height: (24/16);
   font-weight: 600;
+  font-family: "Basis Medium", sans-serif;
 }
 
 .caption {
@@ -59,17 +63,20 @@
   line-height: (24/14);
   color: var(--n4);
   font-weight: 400;
+  font-family: "Basis", sans-serif;
 }
 
 .caption-bold {
   font-size: 14px;
   line-height: (24/14);
   font-weight: 500;
+  font-family: "Basis Medium", sans-serif;
 }
 
 .caption-2 {
   font-size: 12px;
   line-height: (20/12);
+  font-family: "Basis", sans-serif;
   color: var(--n4);
   font-weight: 400;
 }
@@ -78,6 +85,7 @@
   font-size: 12px;
   line-height: (20/12);
   font-weight: 600;
+  font-family: "Basis Medium", sans-serif;
 }
 
 .hairline {
@@ -85,6 +93,7 @@
   line-height: 1;
   font-weight: 700;
   text-transform: uppercase;
+  font-family: "Basis Medium", sans-serif;
 }
 
 .hairline-2 {
@@ -92,17 +101,20 @@
   line-height: 1;
   font-weight: 700;
   text-transform: uppercase;
+  font-family: "Basis Medium", sans-serif;
 }
 
 .button-default {
   font-size: 16px;
   font-weight: 700;
   line-height: 1;
+  font-family: "Basis Medium", sans-serif;
 }
 
 .button-2 {
   font-size: 14px;
   line-height: (16/14);
+  font-family: "Basis Medium", sans-serif;
   font-weight: 700;
 }
 
@@ -110,10 +122,12 @@
   .body {
     font-size: 16px;
     line-height: (24/16);
+    font-family: "Basis", sans-serif;
   }
 
   .hairline {
     font-size: 12px;
     line-height: 1;
+    font-family: "Basis Medium", sans-serif;
   }
 }

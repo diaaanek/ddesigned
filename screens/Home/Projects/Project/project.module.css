@@ -56,7 +56,8 @@
 
 .title {
   margin-top: 16px;
-  font-family: "Basis Medium";
+  font-family: "Basis";
+  color: --n7;
 }
 
 .image_container:hover .overlay {
