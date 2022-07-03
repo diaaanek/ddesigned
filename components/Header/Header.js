@@ -97,7 +97,7 @@ const Header = () => {
           </div>
         </OutsideClickHandler>
         <Link href='/contact'>
-          <a className={cn("button-small", styles.link)}>{"Let's talk :) "}</a>
+          <a className={cn("button-small", styles.link)}>{"Let's talk :)"}</a>
         </Link>
 
         <button

@@ -16,17 +16,19 @@
 
 .title {
   margin-top: 24px;
+  line-height: 111%;
   margin-bottom: 24px;
   color: var(--n8);
 }
 
 .subtitle {
   margin-bottom: 32px;
+  line-height: 150%;
   color: var(--n5);
 }
 
 .span {
-  color: var(--p1);
+  color: var(--n6);
 }
 
 .text {
@@ -91,17 +93,18 @@
   .title {
     font-size: 48px;
     line-height: (56/48);
-    letter-spacing: -0.02em;
+    /* letter-spacing: -0.02em; */
   }
 
   .subtitle,
   .text {
-    font-size: 16px;
+    font-size: 18px;
     line-height: (24/16);
   }
 
   .button {
     width: 100%;
+    margin: 0 auto;
   }
 }
 

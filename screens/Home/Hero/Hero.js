@@ -50,14 +50,14 @@ const Hero = () => {
                 </motion.button>
               </a>
             </Link>
-            <AnchorLink to='projects' offset={-128} smooth={true}>
+            {/* <AnchorLink to='projects' offset={-128} smooth={true}>
               <motion.button
                 variants={item}
                 className={cn("button button-stroke", styles.button)}
               >
                 Projects
               </motion.button>
-            </AnchorLink>
+            </AnchorLink> */}
           </div>
 
           <div className={styles.stats_wrapper}>
