@@ -38,7 +38,7 @@ const Clients = () => {
         <div className={styles.wrapper}>
           {logos.map((item, index) => (
             <ScrollAnimation key={index}>
-              <Client {...item} />
+              {/* <Client {...item} /> */}
             </ScrollAnimation>
           ))}
         </div>

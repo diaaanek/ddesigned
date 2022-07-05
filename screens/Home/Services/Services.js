@@ -14,40 +14,41 @@ const services = [
     subtitle:
       "we design your product conception from the ground up. full ux/ui for mobile, web, b2b app or newly seeded startup. starting at $2,499/m",
   },
-  {
-    icon: "plugin",
-    title: "app development",
-    subtitle:
-      "from rapid prototyping, designing, visual concepts to a fully functional live mobile product. uses swift ui, flutter, or react native. schedule a call.",
-  },
+
   {
     icon: "globe",
     title: "web development",
     subtitle:
-      "we build the ui of your web app using modern and module front-end frameworks, react, typescript, nextjs. startting $2,999/m",
+      "we build the ui of your web app using modern and module front-end frameworks such as react, typescript, and nextjs. starting $2,999/m",
+  },
+  {
+    icon: "plugin",
+    title: "native app development",
+    subtitle:
+      "from rapid prototyping, designing, visual concepts to a fully functional live mobile product. uses swift ui, flutter, or react native. schedule a call.",
   },
 ];
 
 const facts = [
   {
     icon: "diamond",
-    number: "498k",
-    title: "Subscribers",
+    number: "~550k",
+    title: "users across apps",
   },
   {
     icon: "star",
-    number: "300+",
-    title: "Projects",
+    number: "$250m",
+    title: "million raised",
   },
   {
     icon: "heart",
-    number: "400",
-    title: "Websites",
+    number: "18",
+    title: "startups since '19",
   },
   {
     icon: "speed-test",
-    number: "199",
-    title: "Apps",
+    number: "1",
+    title: "kickass designer, duh",
   },
 ];
 
@@ -58,7 +59,7 @@ const Services = () => {
         <div className={styles.upper_content}>
           <div className={styles.content}>
             {/* <Tag number="01" background="#ffbc99" /> */}
-            <TextOverlap title='services' text='services' />
+            <TextOverlap title='specialty' text=' specialty' />
           </div>
           {/* <Link href="/services">
             <a className={cn("button-small", styles.button)}>View Services</a>
@@ -72,13 +73,13 @@ const Services = () => {
             </ScrollAnimation>
           ))}
         </div>
-        {/* <div className={styles.facts_wrapper}>
+        <div className={styles.facts_wrapper}>
           {facts.map((item, index) => (
             <ScrollAnimation key={index}>
               <Fact {...item} />
             </ScrollAnimation>
           ))}
-        </div> */}
+        </div>
       </div>
     </div>
   );

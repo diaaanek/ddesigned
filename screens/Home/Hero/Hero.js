@@ -33,8 +33,8 @@ const Hero = () => {
           </motion.span>
           <motion.h1 variants={item} className={cn("hero", styles.title)}>
             bringing{" "}
-            <span className={cn("span2", styles.span2)}>ideas to life</span>{" "}
-            with design, love, & lotsss of code
+            <span className={cn("span2", styles.span2)}>ideas to life</span> w/
+            design, code, & lots of love
           </motion.h1>
           <motion.p variants={item} className={cn("body", styles.subtitle)}>
             lead front-end dev/designer for mobile and saas apps with over{" "}
@@ -42,13 +42,13 @@ const Hero = () => {
             experience
           </motion.p>
           <div className={styles.wrapper}>
-            <Link href='/contact'>
+            <Link href='/'>
               <a>
                 <motion.button
                   variants={item}
                   className={cn("button", styles.button)}
                 >
-                  hire me
+                  let's talk :)
                 </motion.button>
               </a>
             </Link>
@@ -90,8 +90,8 @@ const Hero = () => {
       <div className={cn("one", styles.one)}></div>
       <div className={cn("two", styles.two)}></div>
       <div className={cn("three", styles.three)}></div>
-      {/* <div className={cn("four", styles.four)}></div> */}
-      {/* <div className={cn("five", styles.five)}></div> */}
+      <div className={cn("four", styles.four)}></div>
+      <div className={cn("five", styles.five)}></div>
     </div>
   );
 };

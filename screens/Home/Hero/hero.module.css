@@ -36,7 +36,7 @@
 .span2 {
   background-color: #70e1f5;
   background: -webkit-linear-gradient(to right, #79d6e7, #dd84e2);
-  background: linear-gradient(to right, #75cddd, #c37ad5);
+  background: linear-gradient(to right, #7dcedd, #83c6a5, #cd98d9);
   background-size: 100%;
   -webkit-background-clip: text;
   -moz-background-clip: text;
@@ -110,12 +110,12 @@
   .title {
     font-size: 48px;
     line-height: (56/48);
-    /* letter-spacing: -0.02em; */
+    letter-spacing: -0.05em;
   }
 
   .subtitle,
   .text {
-    font-size: 18px;
+    font-size: 16px;
     line-height: (24/16);
   }
 
@@ -130,6 +130,10 @@
     font-size: 40px;
     line-height: (48/40);
     /* letter-spacing: -0.01em; */
+  }
+  .section {
+    padding-top: 125px;
+    padding-bottom: 24px;
   }
 }
 
@@ -196,9 +200,9 @@
 }
 
 .four {
-  right: 5%;
-  bottom: -1%;
-  left: -15%;
+  bottom: -25%;
+  left: 20%;
+  right: 0%;
   background: radial-gradient(
     50% 50% at 50% 50%,
     #82b3ddd3 0,
@@ -211,7 +215,7 @@
 .five {
   position: absolute;
   bottom: -25%;
-  left: 40%;
+  left: -10%;
   z-index: -1;
   width: 100%;
   max-width: calc(50vw + 25%);
