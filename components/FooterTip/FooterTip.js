@@ -5,14 +5,14 @@ const FooterTip = () => {
   return (
     <div className={cn("container", styles.container)}>
       <p className={cn("caption", styles.title)}>
-        copyright © 2022 - built with ♥️ & ☕{" "}
+        2022 © - built with ♥️ & ☕{" "}
         <a
           href='https://dianedesigned.com'
           target='_blank'
           rel='noreferrer'
           className={cn("caption-bold", styles.author)}
         >
-          diane korongy
+          diane k
         </a>
       </p>
       <p className={cn("caption")}>

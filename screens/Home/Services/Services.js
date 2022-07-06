@@ -12,20 +12,20 @@ const services = [
     icon: "paint-bucket",
     title: "product design",
     subtitle:
-      "we design your product conception from the ground up. full ux/ui for mobile, web, b2b app or newly seeded startup. starting at $2,499/m",
+      "we design your product conception from the ground up. full ux/ui for mobile, web, b2b app or newly seeded startup. starting at $3,995/m/m",
   },
 
   {
     icon: "globe",
     title: "web development",
     subtitle:
-      "we build the ui of your web app using modern and module front-end frameworks such as react, typescript, and nextjs. starting $2,999/m",
+      "we build the ui of your web app using modern and module front-end frameworks such as react, typescript, and nextjs. starting $4,995/m",
   },
   {
     icon: "plugin",
     title: "native app development",
     subtitle:
-      "from rapid prototyping, designing, visual concepts to a fully functional live mobile product. uses swift ui, flutter, or react native. schedule a call.",
+      "rapid prototyping, designing, visual concepts to a fully functional live mobile product ui. swift ui, flutter, or react native. book a call learn more about we work",
   },
 ];
 

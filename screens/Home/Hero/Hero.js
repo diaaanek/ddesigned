@@ -42,7 +42,7 @@ const Hero = () => {
             experience
           </motion.p>
           <div className={styles.wrapper}>
-            <Link href='/'>
+            <Link href='mailto:dkorongy@gmail.com'>
               <a>
                 <motion.button
                   variants={item}

@@ -13,10 +13,11 @@ const CTA = (props) => {
             {/* <Tag number={props.number} background={props.background} /> */}
             <h4 className={cn("h4", styles.title)}>{props.title}</h4>
             <p className={cn("caption", styles.subtitle)}>
-              Donec et enim vitae tellus auctor menean leo diamfeugiat nulla
-              sed. consequat venenatis est. Praesent commodo consequat pharetra.
+              With the monthly plan, you can pause and resume your subscription
+              as often as you need to ensure you're only paying your designer
+              when you have work available for them.
             </p>
-            <Link href='/contact'>
+            <Link href='mailto:dkorongy@gmail.com'>
               <a className={cn("button", styles.button)}>{props.button}</a>
             </Link>
           </div>
