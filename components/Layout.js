@@ -8,6 +8,23 @@ const Layout = ({ children }) => {
   return (
     <>
       <Head>
+        <script
+          dangerouslySetInnerHTML={{
+            __html: `async
+      src="https://www.googletagmanager.com/gtag/js?id=UA-139835856-1"
+    ></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
+
+      gtag("config", "UA-139835856-1");
+   `,
+          }}
+        />
+
         <link
           rel='preload'
           href='/fonts/AirbnbCereal-Book.ttf'
