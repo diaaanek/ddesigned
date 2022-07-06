@@ -13,6 +13,14 @@ const projects = [
       "https://res.cloudinary.com/dxrvvjvpf/image/upload/v1646937386/Frame_470.png",
     // title: "vetcove",
   },
+
+  {
+    embed: "WVWxPIzEM3A",
+    image:
+      "https://res.cloudinary.com/dxrvvjvpf/image/upload/v1657118264/Frame_1000002495.png",
+    // title: "vetcove",
+  },
+
   {
     embed: "WABOrIYhR94",
     image:
@@ -25,10 +33,23 @@ const projects = [
     // title: "yc startup ui design",
   },
   {
+    embed: "JXxAnZaZrG0",
+    image:
+      "  https://res.cloudinary.com/dxrvvjvpf/image/upload/v1646937384/Frame_868.png",
+    // title: "yc startup ui design",
+  },
+
+  {
     embed: "_a0T5qwxANg",
     image:
       "https://res.cloudinary.com/dxrvvjvpf/image/upload/v1587529327/ronaframe.png",
     // title: "flutter ui design/dev",
+  },
+  {
+    embed: "HdtJtIQhzbQ",
+    image:
+      "https://res.cloudinary.com/dxrvvjvpf/image/upload/v1646937382/repool_mock.png",
+    // title: "repool 2022",
   },
   {
     embed: "o3vqfdvatsQ",
@@ -45,12 +66,42 @@ const projects = [
   {
     embed: "o3vqfdvatsQ",
     image:
-      "https://res.cloudinary.com/dxrvvjvpf/image/upload/v1646938385/mock.png",
+      "https://res.cloudinary.com/dxrvvjvpf/image/upload/v1647710229/Normal___018.png",
+    // title: "web 3 nft swap in react",
+  },
+
+  {
+    embed: "o3vqfdvatsQ",
+    image:
+      "https://res.cloudinary.com/dxrvvjvpf/image/upload/v1647710249/Replace_this.png",
+  },
+
+  {
+    embed: "o3vqfdvatsQ",
+    image:
+      "  https://res.cloudinary.com/dxrvvjvpf/image/upload/v1578260011/payorplan.png",
   },
   {
-    embed: "HdtJtIQhzbQ",
+    embed: "o3vqfdvatsQ",
     image:
-      "https://cdn.dribbble.com/users/3371648/screenshots/9949740/media/9a2ae127b6b79f59e97402b96e3de81c.png?compress=1&resize=1600x1200&vertical=top",
+      "  https://res.cloudinary.com/dxrvvjvpf/image/upload/v1647824899/Hero_-_Desktop.png",
+  },
+
+  {
+    embed: "o3vqfdvatsQ",
+    image:
+      "https://res.cloudinary.com/dxrvvjvpf/image/upload/v1657117558/headerpic_1.png",
+  },
+  {
+    embed: "WVWxPIzEM3A",
+    image:
+      "https://cdn.dribbble.com/users/3371648/screenshots/9950021/media/2777c8a38068058f674c965544ff873b.png?compress=1&resize=1600x1200&vertical=top",
+    // title: "vetcove",
+  },
+  {
+    embed: "o3vqfdvatsQ",
+    image:
+      "https://res.cloudinary.com/dxrvvjvpf/image/upload/v1563854986/2wsj.png",
   },
 ];
 

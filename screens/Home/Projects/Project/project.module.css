@@ -12,7 +12,7 @@
 
 .image {
   width: 100%;
-  box-shadow: 0px 10px 25px -10px rgba(76, 79, 88, 0.21);
+  box-shadow: 0px 2px 11px 0px rgba(76, 79, 88, 0.287);
   height: 100%;
   object-fit: cover;
   border-radius: inherit;

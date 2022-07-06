@@ -13,14 +13,14 @@ const Layout = ({ children }) => {
           href='/fonts/AirbnbCereal-Book.ttf'
           as='font'
           type='font/ttf'
-          crossOrigin=''
+          crossOrigin='anonymous'
         />
         <link
           rel='preload'
           href='/fonts/AirbnbCereal-Medium.ttf'
           as='font'
           type='font/ttf'
-          crossOrigin=''
+          crossOrigin='anonymous'
         />
 
         <link
@@ -28,7 +28,7 @@ const Layout = ({ children }) => {
           href='/fonts/AirbnbCereal-Bold.ttf'
           as='font'
           type='font/ttf'
-          crossOrigin=''
+          crossOrigin='anonymous'
         />
 
         <title>diane designed</title>
