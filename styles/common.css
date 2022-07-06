@@ -3,17 +3,20 @@
 
 @font-face {
   font-family: "Basis";
-  src: url("../public/fonts/AirbnbCereal-Book.ttf") format("truetype");
+  src: url("https://res.cloudinary.com/dxrvvjvpf/raw/upload/v1657119272/AirbnbCereal-Book.ttf")
+    format("truetype");
 }
 
 @font-face {
   font-family: "Basis Medium";
-  src: url("../public/fonts/AirbnbCereal-Medium.ttf") format("truetype");
+  src: url("https://res.cloudinary.com/dxrvvjvpf/raw/upload/v1657119272/AirbnbCereal-Medium.ttf")
+    format("truetype");
 }
 
 @font-face {
   font-family: "Basis Bold";
-  src: url("../public/fonts/AirbnbCereal-Bold.ttf") format("truetype");
+  src: url("https://res.cloudinary.com/dxrvvjvpf/raw/upload/v1657119272/AirbnbCereal-Bold.ttf")
+    format("truetype");
 }
 
 body {
