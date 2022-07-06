@@ -12,7 +12,7 @@ const services = [
     icon: "paint-bucket",
     title: "product design",
     subtitle:
-      "we design your product conception from the ground up. full ux/ui for mobile, web, b2b app or newly seeded startup. starting at $3,995/m/m",
+      "we design your product conception from the ground up. full ux/ui for mobile, web, b2b app or newly seeded startup. starting at $3,995/m",
   },
 
   {
