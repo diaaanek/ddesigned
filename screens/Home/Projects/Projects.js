@@ -17,7 +17,7 @@ const projects = [
   {
     embed: "WVWxPIzEM3A",
     image:
-      "https://res.cloudinary.com/dxrvvjvpf/image/upload/v1657118264/Frame_1000002495.png",
+      "https://res.cloudinary.com/dxrvvjvpf/image/upload/v1657166944/peee.png",
     // title: "vetcove",
   },
 
