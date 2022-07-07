@@ -27,7 +27,8 @@
   }
 
   .wrapper {
-    margin-top: 48px;
+    margin-top: 32px;
+    grid-gap: 16px;
   }
 
   .content {
