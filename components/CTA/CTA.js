@@ -13,11 +13,9 @@ const CTA = (props) => {
             {/* <Tag number={props.number} background={props.background} /> */}
             <h4 className={cn("h4", styles.title)}>{props.title}</h4>
             <p className={cn("caption", styles.subtitle)}>
-              With the monthly plan, you can pause and resume your subscription
-              as often as you need to ensure you're only paying when you have
-              work available. We replace unreliable freelancers and expensive
-              agencies for one flat monthly fee, with designs with unmathced
-              quality.
+              With the monthly plan, we replace unreliable freelancers and
+              expensive agencies for one flat monthly fee, with designs with
+              unmatched quality.
             </p>
             <Link href='mailto:dkorongy@gmail.com'>
               <a className={cn("button", styles.button)}>{props.button}</a>

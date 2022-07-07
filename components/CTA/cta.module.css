@@ -1,11 +1,11 @@
 .section {
-  border-top: 1px solid var(--n7);
+  border-top: 1px solid var(--n6);
 }
 
 .box {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  grid-gap: 32px;
+  grid-gap: 24px;
   background-color: var(--n7);
   border-radius: 12px;
 }
@@ -18,7 +18,7 @@
 }
 
 .title {
-  margin-bottom: 24px;
+  margin-bottom: 16px;
 }
 
 .subtitle {
@@ -27,9 +27,9 @@
 }
 
 .image_container {
-  width: 90%;
+  width: 75%;
   border-radius: 0px;
-  margin-top: -55px;
+  margin-top: -50px;
 }
 
 .image {
