@@ -69,7 +69,8 @@ const projects = [
   {
     embed: "o3vqfdvatsQ",
     image:
-      "https://res.cloudinary.com/dxrvvjvpf/image/upload/v1647710249/Replace_this.png",
+      "https://res.cloudinary.com/dxrvvjvpf/image/upload/v1657165041/Three_iPhone_X.png",
+    // bach",
   },
 
   {
@@ -86,26 +87,27 @@ const projects = [
   {
     embed: "o3vqfdvatsQ",
     image:
-      "https://res.cloudinary.com/dxrvvjvpf/image/upload/v1657162639/kick.png",
+      "https://res.cloudinary.com/dxrvvjvpf/image/upload/v1657162908/kick.png",
     // title: "kickback",
+  },
+
+  {
+    embed: "o3vqfdvatsQ",
+    image:
+      "https://res.cloudinary.com/dxrvvjvpf/image/upload/v1657163750/wsj.png",
+    // title: "wsj",
   },
   {
     embed: "WVWxPIzEM3A",
     image:
       "https://cdn.dribbble.com/users/3371648/screenshots/9950021/media/2777c8a38068058f674c965544ff873b.png?compress=1&resize=1600x1200&vertical=top",
-    // title: "vetcove",
+    // title: "bfin",
   },
   {
     embed: "o3vqfdvatsQ",
     image:
       "https://res.cloudinary.com/dxrvvjvpf/image/upload/v1657159748/twin.png",
     // other",
-  },
-  {
-    embed: "o3vqfdvatsQ",
-    image:
-      "https://res.cloudinary.com/dxrvvjvpf/image/upload/v1563854986/2wsj.png",
-    // title: "wsj",
   },
 ];
 
