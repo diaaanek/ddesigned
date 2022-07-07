@@ -33,11 +33,11 @@ const Hero = () => {
           </motion.span>
           <motion.h1 variants={item} className={cn("hero", styles.title)}>
             bringing{" "}
-            <span className={cn("span2", styles.span2)}>ideas to life</span> w/
-            design, code, & lots of love
+            <span className={cn("span2", styles.span2)}>ideas to life</span>{" "}
+            with design, code, & lots of love
           </motion.h1>
           <motion.p variants={item} className={cn("body", styles.subtitle)}>
-            lead front-end dev/designer for mobile and saas apps with over{" "}
+            lead developer/designer for mobile and web apps with over{" "}
             <span className={cn("body-bold", styles.text)}>7 years</span>{" "}
             experience
           </motion.p>
