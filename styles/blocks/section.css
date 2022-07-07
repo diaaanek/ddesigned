@@ -24,4 +24,10 @@
   .section {
     padding: 90px 0;
   }
+  .section1 {
+    padding: 60px 0;
+  }
+  .section-pb {
+    padding-top: 0;
+  }
 }

@@ -73,13 +73,13 @@ const Services = () => {
             </ScrollAnimation>
           ))}
         </div>
-        <div className={styles.facts_wrapper}>
+        {/* <div className={styles.facts_wrapper}>
           {facts.map((item, index) => (
             <ScrollAnimation key={index}>
               <Fact {...item} />
             </ScrollAnimation>
           ))}
-        </div>
+        </div> */}
       </div>
     </div>
   );
