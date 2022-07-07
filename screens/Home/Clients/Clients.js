@@ -26,7 +26,7 @@ const Clients = () => {
       <div className={cn("container", styles.container)}>
         <div className={styles.content}>
           {/* <Tag number='03' background='#b1e5fc' /> */}
-          <TextOverlap title='featured by' text='featured by' />
+          <TextOverlap title='features' text='features' />
         </div>
 
         <div className={styles.wrapper}>
