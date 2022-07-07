@@ -23,12 +23,12 @@ export default function Home({ allNewsData }) {
       <Projects />
       {/* <Clients /> */}
       {/* <News number='04' allNewsData={allNewsData} /> */}
-      {/* <CTA
+      <CTA
         number='05'
         background='#ffd88d'
         title='let’s talk'
         button='contact'
-      /> */}
+      />
     </Layout>
   );
 }
