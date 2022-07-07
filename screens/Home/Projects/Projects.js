@@ -17,10 +17,16 @@ const projects = [
   {
     embed: "WVWxPIzEM3A",
     image:
-      "https://res.cloudinary.com/dxrvvjvpf/image/upload/v1657166944/peee.png",
+      "https://res.cloudinary.com/dxrvvjvpf/image/upload/v1657118264/Frame_1000002495.png",
     // title: "vetcove",
   },
 
+  {
+    embed: "WVWxPIzEM3A",
+    image:
+      "https://res.cloudinary.com/dxrvvjvpf/image/upload/v1657166899/per.png",
+    // title: "vetcove",
+  },
   {
     embed: "WABOrIYhR94",
     image:
@@ -97,12 +103,12 @@ const projects = [
       "https://res.cloudinary.com/dxrvvjvpf/image/upload/v1657163750/wsj.png",
     // title: "wsj",
   },
-  {
-    embed: "WVWxPIzEM3A",
-    image:
-      "https://cdn.dribbble.com/users/3371648/screenshots/9950021/media/2777c8a38068058f674c965544ff873b.png?compress=1&resize=1600x1200&vertical=top",
-    // title: "bfin",
-  },
+  // {
+  //   embed: "WVWxPIzEM3A",
+  //   image:
+  //     "https://cdn.dribbble.com/users/3371648/screenshots/9950021/media/2777c8a38068058f674c965544ff873b.png?compress=1&resize=1600x1200&vertical=top",
+  //   // title: "bfin",
+  // },
   {
     embed: "o3vqfdvatsQ",
     image:
