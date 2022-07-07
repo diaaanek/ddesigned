@@ -12,7 +12,7 @@
 
 .image {
   width: 100%;
-  box-shadow: 0px 2px 11px 0px rgba(76, 79, 88, 0.287);
+  box-shadow: 0 11px 25px 11px rgba(170, 178, 187, 0.141);
   height: 100%;
   object-fit: cover;
   border-radius: inherit;
@@ -39,7 +39,7 @@
     #fcfcfd 36.52%,
     rgba(252, 252, 253, 0.83) 98.8%
   );
-  box-shadow: 0px 40px 64px -32px rgba(15, 15, 15, 0.1);
+  box-shadow: 0px 40px 64px -32px rgba(121, 46, 46, 0.1);
   backdrop-filter: blur(32px);
   display: flex;
   align-items: center;
@@ -58,7 +58,6 @@
 
 .title {
   margin-top: 16px;
-
   color: --n7;
 }
 
@@ -69,6 +68,6 @@
 @media (max-width: 768px) {
   .image_container {
     height: 250px;
-    box-shadow: 0px 2px 7px 0px #95959713;
+    box-shadow: 0px 1px 7px rgba(0, 0, 0, 0.1);
   }
 }

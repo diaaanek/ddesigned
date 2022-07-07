@@ -29,7 +29,8 @@ const projects = [
   },
   {
     embed: "JXxAnZaZrG0",
-    image: "/images/rebound.png",
+    image:
+      "https://res.cloudinary.com/dxrvvjvpf/image/upload/v1657157889/reboun.png",
     // title: "yc startup ui design",
   },
   {
@@ -51,12 +52,7 @@ const projects = [
       "https://res.cloudinary.com/dxrvvjvpf/image/upload/v1646937382/repool_mock.png",
     // title: "repool 2022",
   },
-  {
-    embed: "o3vqfdvatsQ",
-    image:
-      "https://res.cloudinary.com/dxrvvjvpf/image/upload/v1646938385/mock.png",
-    // title: "swift ui app",
-  },
+
   {
     embed: "HdtJtIQhzbQ",
     image:
@@ -90,7 +86,8 @@ const projects = [
   {
     embed: "o3vqfdvatsQ",
     image:
-      "https://res.cloudinary.com/dxrvvjvpf/image/upload/v1657117558/headerpic_1.png",
+      "https://res.cloudinary.com/dxrvvjvpf/image/upload/v1657162639/kick.png",
+    // title: "kickback",
   },
   {
     embed: "WVWxPIzEM3A",
@@ -101,7 +98,14 @@ const projects = [
   {
     embed: "o3vqfdvatsQ",
     image:
+      "https://res.cloudinary.com/dxrvvjvpf/image/upload/v1657159748/twin.png",
+    // other",
+  },
+  {
+    embed: "o3vqfdvatsQ",
+    image:
       "https://res.cloudinary.com/dxrvvjvpf/image/upload/v1563854986/2wsj.png",
+    // title: "wsj",
   },
 ];
 

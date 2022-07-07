@@ -24,7 +24,7 @@ const Project = ({ embed, image, title }) => {
           </button> */}
         </div>
       </div>
-      <p className={cn("body-2-bold", styles.title)}>{title}</p>
+      {/* <p className={cn("body-2-bold", styles.title)}>{title}</p> */}
 
       {modal ? (
         <section className={cn("background")}>
