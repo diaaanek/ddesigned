@@ -12,14 +12,14 @@ const services = [
     icon: "paint-bucket",
     title: "product design",
     subtitle:
-      "we design your product conception from the ground up. full ux/ui for mobile, web, b2b app or newly seeded startup. starting at $3,995/m",
+      "we design your product conception from the ground up with figma and custom design elements. full ux/ui for mobile, web, b2b app or newly seeded startup",
   },
 
   {
     icon: "globe",
     title: "web development",
     subtitle:
-      "we build the ui of your web app using modern and module front-end frameworks such as react, typescript, and nextjs. starting $4,995/m",
+      "we build the ui of your web app using modern and module front-end frameworks such as react, typescript, and nextjs",
   },
   {
     icon: "plugin",
