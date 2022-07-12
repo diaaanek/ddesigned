@@ -25,7 +25,7 @@ const services = [
     icon: "plugin",
     title: "native app development",
     subtitle:
-      "rapid prototyping, designing, visual concepts to a fully functional live mobile product ui. swift ui, flutter, or react native. book a call learn more about we work",
+      "rapid prototyping, designing, visual concepts to a fully functional live mobile product ui. swift ui, flutter, or react native.",
   },
 ];
 

@@ -7,44 +7,44 @@ import Project from "./Project";
 import styles from "./projects.module.css";
 
 const projects = [
-  {
-    embed: "WVWxPIzEM3A",
-    image:
-      "https://res.cloudinary.com/dxrvvjvpf/image/upload/v1646937386/Frame_470.png",
-    // title: "vetcove",
-  },
+  // {
+  //   embed: "WVWxPIzEM3A",
+  //   image:
+  //     "https://res.cloudinary.com/dxrvvjvpf/image/upload/v1646937386/Frame_470.png",
+  //   // title: "vetcove",
+  // },
 
-  {
-    embed: "WVWxPIzEM3A",
-    image:
-      "https://res.cloudinary.com/dxrvvjvpf/image/upload/v1657118264/Frame_1000002495.png",
-    // title: "vetcove",
-  },
+  // {
+  //   embed: "WVWxPIzEM3A",
+  //   image:
+  //     "https://res.cloudinary.com/dxrvvjvpf/image/upload/v1657118264/Frame_1000002495.png",
+  //   // title: "vetcove",
+  // },
 
-  {
-    embed: "WVWxPIzEM3A",
-    image:
-      "https://res.cloudinary.com/dxrvvjvpf/image/upload/v1657166899/per.png",
-    // title: "vetcove",
-  },
-  {
-    embed: "WABOrIYhR94",
-    image:
-      "https://res.cloudinary.com/dxrvvjvpf/image/upload/v1646937385/Rectangle_521.png",
-    // title: "branding dev",
-  },
-  {
-    embed: "JXxAnZaZrG0",
-    image:
-      "https://res.cloudinary.com/dxrvvjvpf/image/upload/v1657157889/reboun.png",
-    // title: "yc startup ui design",
-  },
-  {
-    embed: "JXxAnZaZrG0",
-    image:
-      "  https://res.cloudinary.com/dxrvvjvpf/image/upload/v1646937384/Frame_868.png",
-    // title: "yc startup ui design",
-  },
+  // {
+  //   embed: "WVWxPIzEM3A",
+  //   image:
+  //     "https://res.cloudinary.com/dxrvvjvpf/image/upload/v1657166899/per.png",
+  //   // title: "vetcove",
+  // },
+  // {
+  //   embed: "WABOrIYhR94",
+  //   image:
+  //     "https://res.cloudinary.com/dxrvvjvpf/image/upload/v1646937385/Rectangle_521.png",
+  //   // title: "branding dev",
+  // },
+  // {
+  //   embed: "JXxAnZaZrG0",
+  //   image:
+  //     "https://res.cloudinary.com/dxrvvjvpf/image/upload/v1657157889/reboun.png",
+  //   // title: "yc startup ui design",
+  // },
+  // {
+  //   embed: "JXxAnZaZrG0",
+  //   image:
+  //     "  https://res.cloudinary.com/dxrvvjvpf/image/upload/v1646937384/Frame_868.png",
+  //   // title: "yc startup ui design",
+  // },
 
   {
     embed: "_a0T5qwxANg",
